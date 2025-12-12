@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+
+  <!-- AOS scroll effect cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- tailwind css cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- video play -->
+  <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+
+  <!-- swiper slide --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/animation.css" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Goulash AI</title>
+</head>
+
+<body class="flex justify-center">
+  <div
+    class="container_site w-full relative max-w-[100%] overflow-hidden flex_center flex-col gap-[80px] xl:gap-[110px] z-10">
+
+    <!-- navbar -->
+    <nav>
+      <div class="nav_container relative flex justify-between" data-aos="fade-up" data-aos-duration="900"
+        data-aos-delay="100">
+        <div class="logo min-w-[100px] w-[35%] lg:w-[17%]">
+          <img src="./assets/images/logo.png" alt="logo webp" class="w-[240px]" />
+        </div>
+
+        <ul class="links h-auto min-[1000px]:h-full flex justify-between max-min-[1000px]:p-4">
+          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">
+
+
+            <li class="w-full lg:w-auto">
+              <a class="nav-link text-[16px]" href="#Features">Features</a>
+            </li>
+
+            <li class="w-full lg:w-auto">
+              <a class="nav-link text-[16px]" href="#Blog">Blog</a>
+            </li>
+
+            <li class="lg:hidden">
+              <button class="btn-get-started button max-xl:max-w-[200px]">
+                Schedule a Call
+              </button>
+            </li>
+
+
+          </div>
+
+          <div class="lg:absolute right-[2rem] flex_center gap-6 max-lg:hidden">
+            <!-- <a
+                href="tel:720-573-1127"
+                class="rounded-xl py-1 px-3 flex_center flex-col border-blue-500 border-2 font-semibold"
+              >
+                <span class="flex_center gap-1">
+                  <img
+                    src="./assets/images/telephone.png"
+                    alt="phone"
+                    class="w-4"
+                  />
+
+                  AI Employee Demo
+                </span>
+                <span class="text-xs">(720)-573-1127</span>
+              </a> -->
+            <button class="btn-get-started button max-xl:max-w-[200px]">
+              Schedule a Call
+            </button>
+          </div>
+        </ul>
+
+        <div class="accessibility flex_center gap-4 z-10 ">
+
+          <div class="menu_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex flex-col w-full items-center gap-[80px] lg:gap-[100px] max-w-[2000px] z-10 pt-[80px]">
+
+      <!-- hero section -->
+      <div class="hero flex_col_center">
+        <section class="hero h-[550px] md:h-[600px] lg:h-[110vh] max-h-[800px]">
+          <div class="video-container w-full bg-black">
+            <video autoplay loop muted playsinline id="heroVideo" class="hero-video" poster="'./assets/images/tumbnail-video.jpg">
+              <source src="./assets/video/hero-video.mp4" type="video/mp4"/>
+              Your browser does not support video.
+            </video>
+          </div>
+
+          <div
+            class="hero-content absolute text-center w-full flex_center flex-col gap-6 left-0 max-lg:pt-30 h-full text-white">
+            <div class="content w-full flex_center flex-col gap-6">
+              <div class="flex_center gap-3">
+                <p>#1 AI Restaurant Phone System</p>
+                <!-- <img src="./assets/images/capterra3310.jpg" alt="cap" class="h-6"> -->
+              </div>
+              <h1 class="font-semibold text-3xl lg:text-7xl leading-[1] max-lg:max-w-[70%] text-white">
+                <span class="color_text_primary">AI</span> Answering Service <br> for <span
+                  class="color_text_primary">Restaurants</span>
+              </h1>
+
+              <p class="max-lg:text-center text-sm lg:text-lg font-medium w-[80%] lg:w-[50%] text-white">When your
+                restaurant's phone is ringing off the hook, Goulash AI steps in—handling orders and answering questions
+                with unmatched accuracy, freeing your staff, and keeping customers happy.</p>
+              <button class="button max-xl:max-w-[200px]">
+                GET A QUOTE
+              </button>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- slider -->
+        <section class="mt-6 lg:mt-10">
+          <div class="text-slider-container relative z-0 w-full left-0 top-0 lg:mt-[-60px]">
+            <div class="slide-container relative w-full h-full flex_center bg-[#ffffff]">
+              <div class="wrapper">
+
+                <div class="item item1">
+                  <img src="./assets/images/slider/acai-republic-150x150389d.png" alt="brand slider" />
+                </div>
+                <div class="item item2">
+                  <img src="./assets/images/slider/chickfila-150x15095bf.png" alt="brand slider" />
+                </div>
+                <div class="item item3">
+                  <img src="./assets/images/slider/chronic-tacoscb14.png" alt="brand slider" />
+                </div>
+                <div class="item item4">
+                  <img src="./assets/images/slider/egg-mania-150x150b798.png" alt="brand slider" />
+                </div>
+                <div class="item item5">
+                  <img src="./assets/images/slider/la-boulangerie-150x150c436.png" alt="brand slider" />
+                </div>
+                <div class="item item6">
+                  <img src="./assets/images/slider/little-caesars-150x1505cc8.png" alt="brand slider" />
+                </div>
+                <div class="item item1">
+                  <img src="./assets/images/slider/acai-republic-150x150389d.png" alt="brand slider" />
+                </div>
+                <div class="item item2">
+                  <img src="./assets/images/slider/chickfila-150x15095bf.png" alt="brand slider" />
+                </div>
+                <div class="item item3">
+                  <img src="./assets/images/slider/chronic-tacoscb14.png" alt="brand slider" />
+                </div>
+                <div class="item item4">
+                  <img src="./assets/images/slider/egg-mania-150x150b798.png" alt="brand slider" />
+                </div>
+                <div class="item item5">
+                  <img src="./assets/images/slider/la-boulangerie-150x150c436.png" alt="brand slider" />
+                </div>
+                <div class="item item6">
+                  <img src="./assets/images/slider/little-caesars-150x1505cc8.png" alt="brand slider" />
+                </div>
+
+                <div class="item item1">
+                  <img src="./assets/images/slider/acai-republic-150x150389d.png" alt="brand slider" />
+                </div>
+                <div class="item item2">
+                  <img src="./assets/images/slider/chickfila-150x15095bf.png" alt="brand slider" />
+                </div>
+                <div class="item item3">
+                  <img src="./assets/images/slider/chronic-tacoscb14.png" alt="brand slider" />
+                </div>
+                <div class="item item4">
+                  <img src="./assets/images/slider/egg-mania-150x150b798.png" alt="brand slider" />
+                </div>
+                <div class="item item5">
+                  <img src="./assets/images/slider/la-boulangerie-150x150c436.png" alt="brand slider" />
+                </div>
+                <div class="item item6">
+                  <img src="./assets/images/slider/little-caesars-150x1505cc8.png" alt="brand slider" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- oppotunities -->
+      <section id="opportunities" class="flex_center flex-col gap-10 " data-aos="fade-up" data-aos-duration="900"
+        data-aos-delay="100">
+        <div class="about w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section">
+            Listen to opportunities <span class="color_text_primary">answered</span>
+          </h2>
+          <p class="color_text text-[16px] lg:text-xl">
+            Hear a recorded example of our AI in action.
+          </p>
+
+          <div class="audio-player">
+            <button id="playBtn">▶</button>
+
+            <div class="progress-container">
+
+              <p>Play Demo</p> 
+
+              <div class="timeline">
+                <div id="progress"></div>
+              </div>
+
+
+              <div id="currentTime">0:00</div>
+              <span>/</span>
+              <div id="duration">0:00</div>
+            </div>
+
+            <audio id="audio" src="./assets/audio/ai-answering.mp3"></audio>
+          </div>
+        </div>
+ 
+      </section>
+
+      <section class="bg-img-chef flex items-center max-lg:gap-10 gap-6 p-8 lg:p-14 overflow-hidden">
+        <div class="about w-full md:w-[70%] lg:w-[55%] flex_center flex-col gap-6 max-lg:text-center"
+          data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+          <h2 class="text-3xl lg:text-5xl text-white w-full">First month free. <br> No long-term contracts.</h2>
+          <p class="text-sm lg:text-xl max-lg:text-center text-white font-light">
+            The most trusted way to manage the mealtime rush with an AI restaurant phone answering service. Our advanced
+            AI restaurant phone system acts as a virtual host, ensuring every call is answered promptly and
+            professionally.
+          </p>
+          <div class="w-full flex items-center max-lg:justify-center justify-start gap-10">
+            <button class="button btn-get-started">
+              Try Goulash AI
+            </button>
+            <button class="button secondary btn-get-started">
+              Schedule a Call
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- trusted by restaurant -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section">
+            <span class="color_text_primary">Trusted </span> by Restaurants of All Sizes
+          </h2>
+          <p class="color_text text-[16px] lg:text-xl text-center lg:w-[770px]">
+            Goulash AI is proven across single locations and multi-location brands. Whether you’re a single-location
+            owner/operator or an operations executive looking for a solution to support franchisees, Goulash AI is built
+            for you.
+
+            <br>
+            <br>
+
+            Our AI restaurant phone system was designed alongside real restaurants of every size, giving us the insights
+            to help you streamline operations, reduce missed calls, and deliver a consistent guest experience no matter
+            how big or small your team is.
+
+            <br>
+          </p>
+
+        </div>
+
+        <!-- <div class="trusted-card w-full flex_center flex-wrap gap-4 lg:gap-10">
+          <div class="card">
+            <h3>1000+</h3>
+            <p>Restaurants Served</p>
+            <span>Growing every day</span>
+          </div>
+          <div class="card">
+            <h3>6M+</h3>
+            <p>Calls Handled</p>
+            <span>Every single year</span>
+          </div>
+          <div class="card">
+            <h3>99.9%</h3>
+            <p>Uptime</p>
+            <span>Always reliable</span>
+          </div>
+        </div> -->
+
+      </section>
+
+      <!-- sliders -->
+      <section>
+
+        <div class="swiper-slider-container">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+
+
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h2>Feature Rich AI</h2>
+                    <p>More than a phone system, it’s a complete restaurant AI solution. Packed with powerful features
+                      and available 24/7, it keeps your business running smoothly day and night. Add a new team member
+                      with our restaurant AI.</p>
+
+                    <div class="total-ai flex justify-center w-full gap-4 mb-5">
+                      <div class="w-[40%] flex items-center flex-col">
+                        <h2>100%</h2>
+                        <span class="text-sm">Call Answer Rate</span>
+                      </div>
+                      <div class="w-[40%] flex items-center flex-col">
+                        <h2>1,300</h2>
+                        <span class="text-sm">Call minutes saved on average per month</span>
+                      </div>
+                    </div>
+
+                    <ul>
+                      <li>Fast and convenient AI ordering</li>
+                      <li>Accurate, time-based answers to questions</li>
+                      <li>Tailored, actionable SMS messages</li>
+                      <li>
+                        Transfer calls based on your rules
+                      </li>
+                      <li>Supports 50+ languages</li>
+                      <li>Keep your existing number</li>
+                    </ul>
+                  </div>
+                  <div class="slide-image" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <img src="./assets/images/restaurant-phone-system658a.jpg" alt="restaurant phone system6">
+                    <h4>With <span>Goulash AI</span>, you get more calls answered, more orders taken, more revenue
+                      captured</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h2>Accurate Orders</h2>
+                    <p>AI ordering that ensures every cart item is carefully reviewed and all required options are
+                      selected, so submitted orders are confirmed to be accurate.</p>
+
+
+                    <ul>
+                      <li>Fully synced with all your POS menu data</li>
+                      <li>Handles complex items and options</li>
+                      <li>Up to date with all menu changes and 86'd items</li>
+                      <li>Confirms order details automatically</li>
+                    </ul>
+                  </div>
+                  <div class="slide-image" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <img src="./assets/images/perfect-orders-display4c7c.jpg" alt="perfect-orders-display">
+                    <h4>With <span>Goulash AI</span>, you get more calls answered, more orders taken, more revenue
+                      captured</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h2>Let AI Handle the Phone, So You Don't Have To</h2>
+                    <p>Goulash AI is a plug-and-play phone system designed for restaurants of all sizes. It accurately
+                      answers your calls, routes customers, sends SMS order links, and more—without apps or downloads.
+                    </p>
+
+
+                    <ul>
+                      <li>No integrations needed</li>
+                      <li>No setup fees</li>
+                      <li>Works with your existing phone system or can port to Goulash AI's phone service</li>
+                      <li>It's like adding a full-time host—without hiring anyone.</li>
+                    </ul>
+                  </div>
+                  <div class="slide-image" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <img src="./assets/images/person-using-nfc-technology-pay.jpg" alt="person-using-nfc-technology">
+                    <h4>With <span>Goulash AI</span>, you get more calls answered, more orders taken, more revenue
+                      captured</h4>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h2>It's The Lunch Rush. You're Being Pulled in Two Directions.</h2>
+                    <p>Your kitchen's backed up. Your best server is covering two sections. The phone keeps ringing—and
+                      no one can answer it. Orders are lost. Guests are waiting. Your team is burning out.</p>
+
+                    <h4>Sound familiar?</h4>
+                    <ul class="non-mark">
+                      <li>Every missed call = lost revenue</li>
+                      <li>Long hold times = poor reviews</li>
+                      <li>Overwhelmed staff = unhappy customers</li>
+                    </ul>
+                  </div>
+                  <div class="slide-image" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <img src="./assets/images/group-chefs-working-kitchen0f62.jpg" alt="group-chefs-working">
+                    <h4>With <span>Goulash AI</span>, you get more calls answered, more orders taken, more revenue
+                      captured</h4>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <!-- Custom Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Custom Navigation -->
+            <button class="custom-button custom-prev"></button>
+            <button class="custom-button custom-next"></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- never miss -->
+      <section class="bg-img-answer flex items-center max-lg:gap-10 gap-6 p-8 lg:p-14 overflow-hidden">
+        <div class="about w-full md:w-[70%] lg:w-[63%] flex_center flex-col gap-6 max-lg:text-center"
+          data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+          <h2 class="text-3xl lg:text-5xl text-white w-full">Never miss an order with an AI <br> restaurant phone
+            answering system.</h2>
+          <p class="text-sm lg:text-xl max-lg:text-center text-white font-light">
+            An AI voice agent tailored to your business. Built hand-in-hand with restaurants just like yours, our system
+            uses advanced voice recognition for accurate order taking and customer service.
+          </p>
+          <div class="w-full flex items-center max-lg:justify-center justify-start gap-10">
+            <button class="button btn-get-started">
+              Try Goulash AI
+            </button>
+            <button class="button secondary btn-get-started">
+              Schedule a Call
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- value restaurant -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section lg:text-4xl">
+            by Bringing <span class="color_text_primary">Value</span> to Restaurants Nationwide
+          </h2>
+          <p class="color_text text-[16px] lg:text-xl text-center lg:w-[770px]">
+            Everything you need to handle more calls, serve more customers, and grow your business with our advanced AI
+            phone system
+
+            <br>
+          </p>
+
+        </div>
+
+        <div class="cards-container">
+          <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-trending-up-3 w-6 h-6">
+                  <path d="M18 5l3 3l-3 3"></path>
+                  <path d="M3 18h2.397a5 5 0 0 0 4.096 -2.133l4.014 -5.734a5 5 0 0 1 4.096 -2.133h3.397"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Boost Online Orders</h3>
+              <p class="card-description">Clients report up to 200% growth in online sales with SMS and voice ordering.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-users-group w-6 h-6">
+                  <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                  <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1"></path>
+                  <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                  <path d="M17 10h2a2 2 0 0 1 2 2v1"></path>
+                  <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                  <path d="M3 13v-1a2 2 0 0 1 2 -2h2"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Free Up Staff</h3>
+              <p class="card-description">Let your team focus on in-house restaurant operations instead of juggling
+                calls.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-calendar-check w-6 h-6">
+                  <path d="M11.5 21h-5.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6"></path>
+                  <path d="M16 3v4"></path>
+                  <path d="M8 3v4"></path>
+                  <path d="M4 11h16"></path>
+                  <path d="M15 19l2 2l4 -4"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Handle Staff Absences</h3>
+              <p class="card-description">Service every call — without hiring more staff, thanks to our AI phone agent.
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-phone-off w-6 h-6">
+                  <path d="M3 21l18 -18"></path>
+                  <path
+                    d="M5.831 14.161a15.946 15.946 0 0 1 -2.831 -8.161a2 2 0 0 1 2 -2h4l2 5l-2.5 1.5c.108 .22 .223 .435 .345 .645m1.751 2.277c.843 .84 1.822 1.544 2.904 2.078l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a15.963 15.963 0 0 1 -10.344 -4.657">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="card-title">Eliminate Spam Calls</h3>
+              <p class="card-description">Block robocalls and never waste a second again.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-wifi w-6 h-6">
+                  <path d="M12 18l.01 0"></path>
+                  <path d="M9.172 15.172a4 4 0 0 1 5.656 0"></path>
+                  <path d="M6.343 12.343a8 8 0 0 1 11.314 0"></path>
+                  <path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">No More Busy Signals</h3>
+              <p class="card-description">Every caller gets a response—even during rush hour.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-currency-dollar w-6 h-6">
+                  <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2">
+                  </path>
+                  <path d="M12 3v3m0 12v3"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Lower Your Phone Bill</h3>
+              <p class="card-description">One end-to-end system. No setup fees. Month-to-month contract.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- answer every call -->
+      <section class="bg-img-resto flex items-center max-lg:gap-10 gap-6 p-8 lg:p-14 overflow-hidden">
+        <div class="about w-full md:w-[70%] lg:w-[63%] flex_center flex-col gap-6 max-lg:text-center"
+          data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+          <h2 class="text-3xl lg:text-5xl text-white w-full">Answer every call, capture more <br> orders with our AI
+            phone answering service.</h2>
+          <p class="text-sm lg:text-xl max-lg:text-center text-white font-light">
+            Can integrate with your POS for 100% accurate menu data and availability. Your restaurant AI should be a
+            true reflection of your brand.
+          </p>
+          <div class="w-full flex items-center max-lg:justify-center justify-start gap-10">
+            <button class="button btn-get-started">
+              Try Goulash AI
+            </button>
+            <button class="button secondary btn-get-started">
+              Schedule a Call
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it words -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section lg:text-4xl">
+            How It Works — <span class="color_text_primary">Simple</span> , Seamless, Stress-Free
+          </h2>
+          <p class="color_text text-[16px] lg:text-xl text-center lg:w-[770px]">
+            Find out what your customers will experience in 3 simple steps with our AI phone system
+          </p>
+
+        </div>
+
+        <div class="works-cards-wrapper">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="card-number">
+              <span>01</span>
+            </div>
+            <div class="card-content">
+              <div class="card-title">Customer Calls</div>
+              <div class="card-description">
+                They dial your same number, and Goulash AI answers instantly as your AI host.
+              </div>
+            </div>
+          </div>
+
+          <!-- Arrow 1 -->
+          <div class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="#FBB03B" d="M17.079 12.5H5v-1h12.079l-5.792-5.792L12 5l7 7l-7 7l-.713-.708z" />
+            </svg>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card-number">
+              <span>02</span>
+            </div>
+            <div class="card-content">
+              <div class="card-title">They Take Action</div>
+              <div class="card-description">
+                Ask questions, place an order, receive links over SMS, and more through our AI host for
+                restaurants.
+              </div>
+            </div>
+          </div>
+
+          <!-- Arrow 2 -->
+          <div class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="#FBB03B" d="M17.079 12.5H5v-1h12.079l-5.792-5.792L12 5l7 7l-7 7l-.713-.708z" />
+            </svg>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card-number">
+              <span>03</span>
+            </div>
+            <div class="card-content">
+              <div class="card-title">You Stay Focused</div>
+              <div class="card-description">
+                No missed orders. No staff interruptions. Less spam calls. Restaurant AI that handles the load.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-get-started button max-xl:max-w-[200px]">
+          Schedule a Call
+        </button>
+
+      </section>
+
+      <!-- value restaurant -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section lg:text-4xl">
+            Built for <span class="color_text_primary">You</span> — No Tech Headaches
+          </h2>
+          <p class="color_text text-[16px] lg:text-xl text-center lg:w-[770px]">
+            Get started quickly with zero technical complexity
+            <br>
+          </p>
+
+        </div>
+
+        <div class="cards-container v2">
+          <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-phone w-6 h-6">
+                  <path
+                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="card-title">Keep Your Current Number</h3>
+              <p class="card-description">Connect with your phone provider or port it — no disruptions.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-trending-up-3 w-6 h-6">
+                  <path d="M18 5l3 3l-3 3"></path>
+                  <path d="M3 18h2.397a5 5 0 0 0 4.096 -2.133l4.014 -5.734a5 5 0 0 1 4.096 -2.133h3.397"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Use as-is or Supercharge with POS</h3>
+              <p class="card-description">No integration required, but get more from it if you use Square or Olo.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-circle-check w-6 h-6">
+                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                  <path d="M9 12l2 2l4 -4"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">White-Glove Setup & Support</h3>
+              <p class="card-description">You'll be live in days — with hands-on help the whole way.</p>
+            </div>
+
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- testimonials -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <span
+            class="text-[13px] font-medium py-2 px-4 rounded-xl border-gray-400 border-[1px] text-gray-800">Testimonials</span>
+          <h2 class="title_section lg:text-4xl">
+            See why we're rated <span class="color_text_primary">#1</span>
+           in  <br>  restaurant AI
+          </h2>
+          <p class="color_text text-[16px] lg:text-xl text-center lg:w-[770px]">
+            See what our restaurant owners have to say about Goulash AI.
+            <br>
+          </p>
+
+        </div>
+
+        <div class="testimonials-wrapper">
+          <!-- Column 1 -->
+          <div class="testimonial-column" id="column1"></div>
+          <!-- Column 2 -->
+          <div class="testimonial-column" id="column2"></div>
+          <!-- Column 3 -->
+          <div class="testimonial-column" id="column3"></div>
+        </div>
+
+      </section>
+
+
+      <!-- restaurant success -->
+      <section class="bg-img-success flex items-center max-lg:gap-10 gap-6 p-8 lg:p-16 overflow-hidden">
+        <div class="about w-full  flex_center flex-col gap-10 text-center" data-aos="fade-up" data-aos-duration="900"
+          data-aos-delay="100">
+          <h2 class="text-3xl lg:text-6xl font-semibold text-white w-full">Ready to <span
+              class="color_text_primary">never</span> miss another call?</h2>
+          <p class="font-medium text-lg lg:text-2xl text-white w-[90%] lg:w-[60%]">
+            Join 1,000+ restaurants already using Goulash AI to boost revenue and delight customers
+          </p>
+          <div class="w-full flex_center">
+            <button class="button btn-get-started">
+              Try Goulash AI
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing -->
+      <section id="pricing" class="px-4 lg:px-8 flex flex-col items-center">
+       <div class="title flex flex-col items-center w-full gap-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+        <span class="font-semibold text-center text-lg lg:text-2xl ">Pricing & Plans</span>
+         <h2 class="title_section leading-[1]"  >
+          First month free. <br> No long-term contracts.
+         </h2>
+                   <p class="color_text text-[16px] lg:text-xl text-center lg:w-[770px]">
+           Get everything you need to run your business smoothly
+            <br>
+          </p>
+       </div>
+   
+        <div class="pricing-container" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+          <div class="pricing-card">
+              <h2 class="card-title">Starter</h2>
+              <p class="pricing-label">Pricing Per Location</p>
+              <div class="price">$297<span>/month</span></div>
+              <ul class="features">
+                  <li>Voice Concierge</li>
+                  <li>Missed Call Automation</li>
+                  <li>Unlimited SMS Text Messages*</li>
+                  <li>Unlimited Calling in U.S. & Canada*</li>
+                  <li>White-Glove Onboarding</li>
+              </ul>
+              <button class="signup-btn">Sign Up</button>
+          </div>
+
+          <div class="pricing-card featured pro">
+              <h2 class="card-title">Professional</h2>
+              <p class="pricing-label">Pricing Per Location</p>
+              <div class="price">$497 <span>/month</span></div>
+              <ul class="features">
+                   <li>Includes Everything in Starter</li>
+                  <li>AI Ordering</li>
+                  <!-- <li>Everything in the Starter Plan </li> -->
+                  <li>Reputation Management </li>
+                  <li>Manage & improve customer reviews, track reputation & increase trust.</li>
+                  <li>Custom Smart Al Websites</li>
+                  <!-- <li>Missed Call Text Back</li> -->
+                  <li>Live Webchat</li>
+                  <li>Google Business Profile</li>
+              </ul>
+              <button class="signup-btn">Sign Up</button>
+          </div>
+
+          <div class="pricing-card">
+              <h2 class="card-title">Enterprise</h2>
+              <p class="pricing-label">Pricing Per Location</p>
+              <div class="price">Custom</div>
+              <ul class="features">
+                  <li>Consultative Account Review</li>
+                  <li>Tailored Account Fine-Tuning</li>
+                  <li>Dedicated Account Executive</li>
+              </ul>
+              <button class="signup-btn">Sign Up</button>
+          </div>
+      </div>
+        
+      </section>
+
+      <!-- faq -->
+      <section id="faq" class="faq-container  px-4 lg:px-8">
+        <h2 class="title_section mb-10"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Frequently Asked Questions</h2>
+
+        <div id="faq-list"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"></div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="w-full flex_center flex-col px-6 lg:px-10 gap-24 py-10">
+      <div class="flex justify-between flex-wrap w-full max-w-[1400px] max-lg:gap-10">
+        <div class="logo flex flex-col max-lg:items-center max-lg:w-full max-lg:gap-2" data-aos="fade-right"
+          data-aos-duration="900" data-aos-delay="100">
+          <img src="./assets/images/logo2.png" alt="logo" class="w-[70px] md:w-[100px]" />
+          <img src="./assets/images/text-logo.png" alt="logo" class="w-[100px] md:w-[200px] object-cover" />
+        </div>
+
+        <div
+          class="links flex items-start flex-wrap max-lg:items-center gap-10 lg:gap-20 max-lg:justify-center max-lg:w-full"
+          data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+          <ul class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold">Quick Links</h5>
+            <li>
+              <a href="#" class="color_text">Features</a>
+            </li>
+            <li>
+              <a href="#" class="color_text">Blog</a>
+            </li>
+          </ul>
+          <!-- <ul
+              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
+            >
+              <h5 class="text-black font-bold">Support</h5>
+              <li>
+                <a href="/pages/contact" class="color_text">Contact</a>
+              </li>
+              <li>
+                <a href="/pages/about" class="color_text">About Us</a>
+              </li>
+            </ul>
+            <ul
+              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
+            >
+              <h5 class="text-black font-bold">Company</h5>
+              <li>
+                <a href="/pages/privacy-policy" class="color_text"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="/pages/terms-and-conditions" class="color_text"
+                  >Terms & Conditions</a
+                >
+              </li>
+            </ul> -->
+          <ul
+            class="social-media flex flex-wrap justify-center items-center gap-4 text-[16px] w-full md:w-[250px] sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold w-full text-center ">Social Media</h5>
+            <li>
+              <a href="https://www.facebook.com" class="color_text text-xl">
+                <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" class="color_text text-2xl">
+                <i class="fa-brands fa-instagram-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" class="color_text text-xl">
+                <i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.x.com" class="color_text text-2xl">
+                <i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+          </ul> 
+          <div
+            class="flex flex-wrap justify-center items-center gap-4 text-[16px] w-full md:w-[250px] sm:h-[200px] lg:h-auto">
+                        <h5 class="text-black font-bold w-full text-center ">Contact</h5>
+               <a href="tel:720-573-1127" class="text-blue-400 underline text-[14px]">📞 (720)-573-1127</a>
+        <a href="mailto:support@quonnect.ai?subject=Need%20Support" class="text-blue-400 underline text-[14px]">
+          📧 support.goulash.ai
+        </a>
+
+        <a href="https://maps.app.goo.gl/NnBDimC3pa4xbtTE9" class="text-blue-400 underline text-[14px]">📍 Denver,
+          Colorado</a>
+
+          </div> 
+        </div>
+      </div>
+
+              <p class="text-[16px] color_text mt-2 text-center">
+          © Copyright 2025. All Rights Reserved by Goulash AI.
+        </p>
+
+      <!-- <div class="flex items-center md:items-start flex-col w-full gap-2 max-md:text-center max-w-[1400px]"
+        data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
+        <a href="tel:720-573-1127" class="text-blue-400 underline text-[14px]">📞 (720)-573-1127</a>
+        <a href="mailto:support@quonnect.ai?subject=Need%20Support" class="text-blue-400 underline text-[14px]">
+          📧 support.goulash.ai
+        </a>
+
+        <a href="https://maps.app.goo.gl/NnBDimC3pa4xbtTE9" class="text-blue-400 underline text-[14px]">📍 Denver,
+          Colorado</a>
+        <p class="text-[16px] color_text mt-2">
+          © Copyright 2025. All Rights Reserved by Goulash AI.
+        </p>
+      </div> -->
+    </footer>
+  </div>
+
+  <!-- aos js library animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+ 
+
+
+  <!-- js link -->
+  <script src="./assets/js/index.js"></script>
+
+  <script src="./assets/js/booking-modal.js"></script>
+
+  <script src="./assets/js/sliderhome.js"></script>
+
+  <script src="./assets/js/testimoni1.js"></script>
+  <script src="./assets/js/testimoni2.js"></script>
+
+  <script>
+    // audio
+    const audio = document.getElementById("audio");
+    const playBtn = document.getElementById("playBtn");
+    const progress = document.getElementById("progress");
+    const currentTimeEl = document.getElementById("currentTime");
+    const durationEl = document.getElementById("duration");
+
+    // Format waktu m:ss
+    function formatTime(time) {
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60).toString().padStart(2, "0");
+      return `${minutes}:${seconds}`;
+    }
+
+    // Saat durasi audio tersedia
+    audio.addEventListener("loadedmetadata", () => {
+      durationEl.textContent = formatTime(audio.duration);
+    });
+
+    // Tombol Play/Pause
+    playBtn.addEventListener("click", () => {
+      if (audio.paused) {
+        audio.play();
+        playBtn.textContent = "⏸";
+      } else {
+        audio.pause();
+        playBtn.textContent = "▶";
+      }
+    });
+
+    // Update progress
+    audio.addEventListener("timeupdate", () => {
+      const percent = (audio.currentTime / audio.duration) * 100;
+      progress.style.width = percent + "%";
+      currentTimeEl.textContent = formatTime(audio.currentTime);
+    });
+
+    // slider 
+    const swiper = new Swiper('.swiper', {
+      // Infinite loop
+      loop: true,
+
+      // Fade effect instead of slide
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+
+      // Smooth transition
+      speed: 400,
+
+      // Auto height
+      autoHeight: false,
+
+      // Pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      // Navigation
+      navigation: {
+        nextEl: '.custom-next',
+        prevEl: '.custom-prev',
+      },
+    });
+
+    // faq
+    const faqData = [
+      {
+        question: "What is a restaurant phone system?",
+        answer: "A restaurant phone system is the communication solution restaurants use to handle incoming and outgoing calls. Traditional phone systems often require staff to answer every call manually, which can be overwhelming during peak hours. Modern solutions like Goulash AI combine phone systems with AI to answer calls, take orders, send SMS messages, and transfer calls—helping restaurants provide faster and more consistent service."
+      },
+      {
+        question: "How is an AI restaurant phone system different from a traditional one?",
+        answer: "Unlike a traditional phone system, an AI restaurant phone system uses voice AI to automatically answer calls 24/7, provide information, take orders, and even send SMS links for online menus or reservations. This frees up restaurant staff to focus on in-house guests while ensuring that no calls—or potential orders—are missed."
+      },
+      {
+        question: "Can an AI restaurant phone system replace a restaurant answering service?",
+        answer: "Yes. A traditional restaurant answering service usually involves a call center or outsourced team, which can be expensive, inconsistent, and unable to handle orders directly. An AI restaurant answering service works instantly, never puts guests on hold, and can take actions like sending SMS links, handling reservations, and processing orders. Restaurants benefit from lower costs, faster service, and happier customers."
+      },
+      {
+        question: "Why should restaurants consider AI for their phone systems?",
+        answer: "AI for restaurants ensures every call is answered, even during the busiest times. With rising costs and labor shortages, restaurants need tools that reduce workload while improving guest experience. An AI restaurant phone system provides 24/7 coverage, supports 50+ languages, and handles both voice and SMS communication, giving restaurants a competitive advantage."
+      },
+      {
+        question: "Is AI for restaurants reliable and guest-friendly?",
+        answer: "Yes. Goulash AI was built alongside real restaurants to ensure reliability and a natural guest experience. The AI understands restaurant-specific needs, can answer FAQs, take accurate orders, transfer calls when needed, and provide a professional, friendly interaction every time. Unlike generic answering services, AI for restaurants is tailored to the industry."
+      },
+      {
+        question: "How does an AI restaurant phone system help with staffing challenges?",
+        answer: "With labor shortages affecting restaurants nationwide, an AI restaurant phone system helps reduce the burden on staff by automatically managing calls. Instead of putting guests on hold, AI answers instantly, processes orders, and routes calls when necessary—so staff can focus on providing great in-person hospitality."
+      },
+      {
+        question: "Do you support small, independent restaurants?",
+        answer: "Yes. Goulash AI works with independent restaurants every day, helping owners and operators manage calls, take orders, and provide a great guest experience—even with limited staff. Our AI-powered restaurant phone system gives smaller teams the same advanced tools that big brands use, without added complexity."
+      },
+      {
+        question: "Can Goulash AI work with large multi-location restaurant brands?",
+        answer: "Absolutely. We already power multi-location restaurant groups nationwide, handling millions of calls each year. Goulash AI scales seamlessly, providing consistent guest experiences across all your locations while allowing flexible customization at the store level."
+      },
+      {
+        question: "Do you support corporate franchise structures?",
+        answer: "Yes. Goulash AI was designed to support franchise operations at scale. Whether it’s centralized account management, streamlined onboarding, or customized billing structures, we’ve built our platform to align with corporate frameworks. We’re proud to already serve multiple large multi-location and franchise brands."
+      },
+      {
+        question: "Is Goulash AI the right choice for both franchisees and franchisors?",
+        answer: "Yes. Franchisees gain tools to improve daily operations and guest service, while franchisors benefit from scalable technology, compliance support, and centralized oversight. This balance makes Goulash AI the ideal restaurant AI partner for growing franchise systems."
+      }
+    ];
+
+    const faqList = document.getElementById('faq-list');
+
+    faqData.forEach((faq, index) => {
+      const faqItem = document.createElement('div');
+      faqItem.className = 'faq-item';
+
+      faqItem.innerHTML = `
+                <div class="faq-question">
+                    <div class="faq-title">${faq.question}</div>
+                    <div class="faq-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">${faq.answer}</div>
+                </div>
+            `;
+
+      faqList.appendChild(faqItem);
+
+      const question = faqItem.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        const isActive = faqItem.classList.contains('active');
+
+        // Tutup semua FAQ lainnya
+        document.querySelectorAll('.faq-item').forEach(item => {
+          item.classList.remove('active');
+        });
+
+        // Toggle FAQ yang diklik
+        if (!isActive) {
+          faqItem.classList.add('active');
+        }
+      });
+    });
+
+    // testimonials
+    const testimonials = [
+      {
+        name: "Maria Rodriguez",
+        profession: "Casa Maria Mexican Grill",
+        image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&h=200&fit=crop",
+        text: "Goulash AI handles our phone orders perfectly. The AI sounds so natural that customers can't tell the difference. Our revenue increased 47% in the first month."
+      },
+      {
+        name: "Tony Castellano",
+        profession: "Tony's Authentic Pizza",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+        text: "With Goulash AI I capture all revenue from calls and only pay minimal fee on successful orders. Game changer for my restaurant."
+      },
+      {
+        name: "Sarah Kim",
+        profession: "Modern Brew Cafe",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop",
+        text: "Goulash AI has almost everything you need to run your restaurant phone system. An awesome partner to have for restaurants."
+      },
+      {
+        name: "Mike Patel",
+        profession: "Saffron Indian Kitchen",
+        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+        text: "Goulash AI has been an absolute lifesaver when it comes to minimizing missed calls and driving direct phone orders."
+      },
+      {
+        name: "Lisa Chen",
+        profession: "Dragon Sushi Bar",
+        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop",
+        text: "My restaurant operates very late, yet Goulash AI's Support has ALWAYS been active and able to help me with any concerns!"
+      },
+      {
+        name: "David Thompson",
+        profession: "Family Diner & Grill",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+        text: "They are helping us take back more control of our business and compete with larger companies because the AI technology is great!"
+      },
+      {
+        name: "Jessica Park",
+        profession: "Seoul Kitchen BBQ",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+        text: "The automated ordering system saves us hours each day. Staff can focus on cooking instead of answering phones constantly."
+      },
+      {
+        name: "Ahmed Hassan",
+        profession: "Mediterranean Delights",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+        text: "Goulash AI's SMS ordering is brilliant! Customers love the convenience and we've seen a 35% increase in repeat orders."
+      },
+      {
+        name: "Emily Watson",
+        profession: "The Burger Joint",
+        image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+        text: "Best investment for our restaurant. The AI handles multiple calls simultaneously during rush hours without any issues."
+      },
+      {
+        name: "Carlos Mendez",
+        profession: "El Taco Loco",
+        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop",
+        text: "No more missed orders during busy hours. The AI takes every call professionally and accurately. Revenue is up 52%!"
+      },
+      {
+        name: "Jennifer Lee",
+        profession: "Pho House",
+        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop",
+        text: "Setup was incredibly easy. Within hours we were taking AI-powered orders. Customer satisfaction has never been higher."
+      },
+      {
+        name: "Robert Singh",
+        profession: "Curry Palace",
+        image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&h=200&fit=crop",
+        text: "The multilingual support is amazing! Our diverse customer base appreciates being served in their preferred language."
+      },
+      {
+        name: "Michelle Adams",
+        profession: "Sweet Treats Bakery",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop",
+        text: "Handles complex custom orders perfectly. Customers love how patient and accurate the AI is with special requests."
+      },
+      {
+        name: "James Wilson",
+        profession: "Steakhouse Prime",
+        image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&h=200&fit=crop",
+        text: "Integration with our POS was seamless. Orders flow directly to the kitchen. It's like having a perfect employee who never calls in sick."
+      },
+      {
+        name: "Nina Sharma",
+        profession: "Spice Route",
+        image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop",
+        text: "The analytics dashboard helps us understand peak times and popular items. Data-driven decisions have improved our operations significantly."
+      },
+      {
+        name: "Marcus Brown",
+        profession: "BBQ Smokehouse",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+        text: "Customers actually prefer calling now because they get immediate service. No more hold times during rush hours!"
+      },
+      {
+        name: "Sophie Martinez",
+        profession: "Cafe Parisien",
+        image: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=200&h=200&fit=crop",
+        text: "The voice quality is so natural and friendly. Our regulars have commented on how pleasant the ordering experience is now."
+      },
+      {
+        name: "Daniel Kim",
+        profession: "Ramen & Noodles",
+        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+        text: "ROI was achieved in the first month. Goulash AI pays for itself many times over. Couldn't run my business without it now."
+      }
+    ];
+
+    function createTestimonialCard(testimonial) {
+      return `
+                <div class="testimonial-card">
+                    <div class="card-header">
+                        <img src="${testimonial.image}" alt="${testimonial.name}" class="profile-img">
+                        <div class="user-info">
+                            <h3>${testimonial.name}</h3>
+                            <p>${testimonial.profession}</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">${testimonial.text}</p>
+                </div>
+            `;
+    }
+
+    function initTestimonials() {
+      const isMobile = window.innerWidth <= 768;
+
+      if (isMobile) {
+        // Mobile: semua testimoni dalam 1 kolom
+        const column1 = document.getElementById('column1');
+        const allTestimonials = [...testimonials, ...testimonials];
+        column1.innerHTML = allTestimonials.map(createTestimonialCard).join('');
+      } else {
+        // Desktop: bagi testimoni ke 3 kolom (6 testimoni per kolom)
+        const column1 = document.getElementById('column1');
+        const column2 = document.getElementById('column2');
+        const column3 = document.getElementById('column3');
+
+        // Bagi 18 testimoni menjadi 3 kolom (masing-masing 6)
+        const col1Testimonials = testimonials.slice(0, 6);
+        const col2Testimonials = testimonials.slice(6, 12);
+        const col3Testimonials = testimonials.slice(12, 18);
+
+        // Duplikasi untuk infinite scroll
+        const col1Double = [...col1Testimonials, ...col1Testimonials];
+        const col2Double = [...col2Testimonials, ...col2Testimonials];
+        const col3Double = [...col3Testimonials, ...col3Testimonials];
+
+        column1.innerHTML = col1Double.map(createTestimonialCard).join('');
+        column2.innerHTML = col2Double.map(createTestimonialCard).join('');
+        column3.innerHTML = col3Double.map(createTestimonialCard).join('');
+      }
+    }
+
+    // Initialize on load
+    initTestimonials();
+
+    // Reinitialize on resize
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        initTestimonials();
+      }, 250);
+    });
+
+                          // video preload
+          const video = document.getElementById('heroVideo');
+            video.addEventListener('loadeddata', () => {
+              video.classList.add('loaded');
+            });
+
+  </script>
+</body>
+
+</html>

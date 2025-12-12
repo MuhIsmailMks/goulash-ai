@@ -1,0 +1,107 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Why Your Brand Voice Matters More Than Ever And How Quonnect AI Makes Your Phone Agent Sound Exactly Like You",
+      "image": "../assets/images/blog-voice-matters-more-than-ever.jpg",
+      "date": "November 17, 2025",
+      "link": "/blog/voice-matters-more-than-ever"
+    },
+
+    {
+      "id": 2,
+      "title": "Is It Time to Switch to Automated Chat Widgets? Why Businesses Are Upgrading to Quonnect AI's Smart Web Assistants",
+      "image": "../assets/images/blog-why-businesses-are-upgrading-to-quonnect-ai.jpg",
+      "date": "November 17, 2025",
+      "link": "/blog/why-businesses-are-upgrading-to-quonnect-ai"
+    },
+    {
+      "id": 3,
+      "title": "Why Customer Reviews Are Your Most Powerful Assets And How Quonnect AI Helps You Leverage Them",
+      "image": "../assets/images/blog-how-quonnect-ai-helps.webp",
+      "date": "November 17, 2025",
+      "link": "/blog/how-quonnect-ai-helps-you-leverage-them"
+    },
+    {
+      "id": 4,
+      "title": "Tired of Manual Work? Here's How Quonnect AI CRM Automates Your Growth",
+      "image": "../assets/images/blog-customer-reviews-powerful-assets-quonnect-ai.jpg",
+      "date": "November 18, 2025",
+      "link": "/blog/customer-reviews-powerful-assets-quonnect-ai"
+    },
+
+    {
+      "id": 5,
+      "title": "How to Build High-Converting Nurture Campaigns With Quonnect AI",
+      "image": "../assets/images/blog-high-converting-nurture-campaigns-quonnect-ai.jpg",
+      "date": "November 18, 2025",
+      "link": "/blog/how-quonnect-ai-helps-you-leverage-them"
+    },
+
+    {
+      "id": 6,
+      "title": "How to Organize Your Social Media Strategy Like a Pro",
+      "image": "../assets/images/blog-how-to-organize-your-social-media-strategy-like-a-pro.jpg",
+      "date": "November 18, 2025",
+      "link": "/blog/blog-how-to-organize-your-social-media-strategy-like-a-pro"
+    },
+
+    {
+      "id": 7,
+      "title": "Quonnect AI: Revolutionizing Lead Generation For Automated, Scalable Growth",
+      "image": "../assets/images/blog-revolutionizing-lead-generation-quonnect-ai.webp",
+      "date": "November 18, 2025",
+      "link": "/blog/revolutionizing-lead-generation-quonnect-ai"
+    },
+
+    {
+      "id": 8,
+      "title": "Why Law Firms Need AI-Driven Automation More Than Ever",
+      "image": "../assets/images/blog-why-law-firms-need-ai-automation.png",
+      "date": "November 18, 2025",
+      "link": "/blog/why-law-firms-need-ai-automation"
+    },
+    {
+      "id": 9,
+      "title": "What Is Quonnect AI and Why Do Vision Centers Need It?",
+      "image": "../assets/images/blog-quonnect-ai-vision-centers.jpg",
+      "date": "November 19, 2025",
+      "link": "/blog/quonnect-ai-vision-centers"
+    },
+    {
+      "id": 10,
+      "title": "This Is Why Home Service Businesses Need Quonnect AI",
+      "image": "../assets/images/blog-home-service-businesses-need-quonnect-ai.jpg",
+      "date": "November 19, 2025",
+      "link": "/blog/home-service-businesses-need-quonnect-ai"
+    },
+    {
+      "id": 11,
+      "title": "How Dental Clinics Can Transform Patient Growth & Operations With Quonnect AI",
+      "image": "../assets/images/blog-dental-clinic-patient-growth-ai.jpg",
+      "date": "November 19, 2025",
+      "link": "/blog/blog-dental-clinic-patient-growth-ai"
+    },
+    {
+      "id": 12,
+      "title": "Why Denver Realtors Need AI Now More Than Ever How Denver Realtors Can Transform Their Business Using Quonnect AI",
+      "image": "../assets/images/blog-denver-realtors-ai.jpg",
+      "date": "November 20, 2025",
+      "link": "/blog/denver-realtors-ai"
+    },
+    {
+      "id": 13,
+      "title": "Why Chiropractors Need AI & Automation Today",
+      "image": "../assets/images/blog-ai-chiropractic-practice-growth.jpg",
+      "date": "November 20, 2025",
+      "link": "/blog/ai-chiropractic-practice-growth"
+    },
+    {
+      "id": 14,
+      "title": "This Is How Realtors Win with Quonnect AI - The Complete Guide to Using Our All-in-One Platform for Real Estate Growth",
+      "image": "../assets/images/blog-realtors-quonnect-ai-guide.jpg",
+      "date": "November 20, 2025",
+      "link": "/blog/realtors-quonnect-ai-guide"
+    }
+  ]
+}

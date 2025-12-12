@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.7;
+    color: #2d3748;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    color: white;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.tagline {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    font-weight: 300;
+}
+
+article {
+    background: white;
+    border-radius: 16px;
+    padding: 50px 90px 0px 90px;
+    margin: 30px auto 0;
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    font-size: 2.52rem !important;
+    line-height: 1.5;
+    margin-bottom: 40px !important;
+    color: #1a202c;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.75rem;
+    color: #1a202c;
+    margin-bottom: 30px !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.meta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-bottom: 2px solid #e2e8f0;
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: linear-gradient(135deg, #667eea 0%, #7ab6fa 100%);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+main h2 {
+    font-size: 1.8rem !important;
+    margin: 30px 0 10px !important;
+    color: #2d3748;
+    font-weight: 600 !important;
+    position: relative;
+}
+
+
+h3 {
+    font-size: 1.4rem !important;
+    margin: 25px 0 5px !important;
+    color: #1b2027;
+    font-weight: 600 !important;
+}
+
+main p {
+    font-size: 1.05rem;
+    color: #2b333f;
+}
+
+blockquote {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 4rem !important;
+    width: 90%;
+    text-align: left !important;
+}
+
+blockquote::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+}
+
+strong {
+    color: #2d3748;
+    font-weight: 600;
+}
+
+
+.platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.platform-card {
+    background: white;
+    border: 2px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.platform-card:hover {
+    border-color: #667eea;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+}
+
+.platform-card h4 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px 0;
+    color: #2d3748;
+}
+
+main ul {
+    margin: 5px 0 25px 0;
+}
+
+main ul.none-list li {
+    list-style: none !important;
+}
+
+main ul.none-list strong {
+    font-size: 1.5rem !important;
+}
+
+main li {
+    margin-bottom: 4px;
+    font-size: 1.05rem;
+    color: #2b333f;
+
+    list-style: inside !important;
+}
+
+.highlight-box {
+    background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+    border-left: 4px solid #667eea;
+    padding: 22px 25px 25px;
+    margin: 35px 0;
+    border-radius: 8px;
+}
+
+.stat-box {
+    background: white;
+    border: 2px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+    border-color: #667eea;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+}
+
+.link{
+    font-weight: 600;
+    color: rgb(0, 102, 255);
+}
+
+
+.cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #5aaddd 100%);
+    color: white;
+    padding: 10px 40px 40px;
+    border-radius: 12px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.cta-section h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.6rem !important;
+}
+
+.cta-section p {
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 20px !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: white;
+    color: #667eea;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    margin-right: 4px;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+    margin: 40px 0;
+}
+
+/* share Footer */
+.share-footer {
+    position: relative;
+    margin-top: 4rem;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #555;
+}
+
+.share-icons {
+    margin-top: 5px;
+}
+
+.share-icons a {
+    margin: 0 20px;
+    display: inline-block;
+    text-decoration: none;
+
+    transition: .2s ease-in-out;
+}
+
+.share-icons a:hover {
+    transform: scale(1.1);
+}
+
+.share-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+ .impact-boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin: 30px 0;
+      }
+
+      .impact-box {
+        background: linear-gradient(135deg, #667eea 0%, #7cc2fc 100%);
+        color: white;
+        padding: 25px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .impact-box h4 {
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+        color: white;
+      }
+
+      .impact-box p {
+        margin: 0;
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.95);
+      }
+
+@media (max-width: 1300px) {
+    article {
+        padding: 30px 25px; 
+    }
+}
+
+@media (max-width: 768px) {
+    article { 
+        margin: 20px 10px;
+    }
+
+    h1 {
+        font-size: 1.9rem !important;
+        line-height: 1.2 !important;
+    }
+
+    main h2 {
+        font-size: 1.85rem !important;
+    }
+
+    h3 {
+        font-size: 1.65rem !important;
+    }
+
+    header {
+        padding: 40px 20px 30px;
+    }
+
+    .meta {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 3rem;
+    }
+
+    .cta-section {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    article {
+        padding: 25px 0px;
+    }
+
+    ul.none-list strong {
+        font-size: 1.2rem !important;
+    }
+
+    .stat-box {
+        padding: 3rem 0rem;
+        text-align: center;
+    }
+}
+
+
+
+.bottleneck-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bottleneck-list li {
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: #f5faff;
+    border-left: 4px solid #81acfc;
+    border-radius: 5px;
+    position: relative;
+    list-style: none !important;
+}
+
+
+ 
+
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.impact-item {
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+.impact-item .metric {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #667eea;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.impact-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+
+.use-case-item h4,
+.feature-section h4,
+.objection-item h4{
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+.by-person{
+    width: 100%;
+    text-align: center;
+    font-size: 16px; 
+    color: #535353;
+}
+
+.by-person a{
+    color: rgb(73, 100, 255);
+    text-decoration: underline;
+}

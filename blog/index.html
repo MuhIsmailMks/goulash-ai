@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quonnect AI Blog</title>
+    <meta
+      name="description"
+      content="The Quonnect Blog"
+    />
+    <link rel="icon" type="image/png" href="../assets/faviconsite.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="The Quonnect AI Blog" />
+    <meta
+      property="og:description"
+      content="covers proven strategies, emerging trends, and real-world use cases to"
+    />
+    <meta property="og:image" content="https://quonnect.ai/assets/images/logo.png" />
+    <meta property="og:url" content="https://quonnect.ai/blog" />
+    <meta property="og:type" content="article" />
+
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      
+  <!-- preload video -->
+  <link rel="preload" as="video" href="../assets/video/hero-ai-sales.mp4" type="video/mp4">
+
+    <!-- Tracking code -->
+    <script src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_7859e871f27a4b9da58ef1936b1304fa">
+    </script>
+
+    <!-- AOS scroll effect cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/animation.css" />
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Quonnect AI Blog",
+        "description": " help you scale conversations not costs.",
+        "author": {
+          "@type": "Person",
+          "name": "Avan"
+        },
+        "datePublished": "2025-11-17",
+        "image": "https://quonnect.ai/assets/images/logo.png"
+      }
+    </script>
+
+    <style>
+      .blog .image:hover img {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container_site_blog w-full relative max-w-[100%] overflow-hidden flex_center flex-col gap-[50px] xl:gap-[40px] z-10">
+
+    <!-- navbar -->
+    <nav class="bg-white">
+        <div
+          class="nav_container relative flex justify-between"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="100"
+        >
+          <a href="/home" class="logo w-[35%] lg:w-[17%]">
+            <img
+              src="../assets/images/logo.png"
+              alt="logo webp"
+              class="w-[240px]"
+            />
+          </a>
+
+          <ul
+            class="links h-auto min-[1030px]:h-full rounded-2xl flex justify-between max-min-[1030px]:p-4 max-lg:shadow-md"
+          >
+            <div class="flex_center flex-wrap gap-10 w-full lg:w-auto text-black">
+             
+            <!-- Features Dropdown -->
+            <li class="feature-dropdown w-full lg:w-auto relative">
+              <button 
+                class="nav-link max-lg:py-1 text-[16px] flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-start"
+                onclick="toggleDropdown('featuresDropdown')"
+              >
+                Resources
+                <svg class="w-4 h-4 transition-transform duration-300" id="featuresIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              
+              <!-- Dropdown Menu -->
+              <div 
+                id="featuresDropdown" 
+                class="dropdown-menu lg:absolute lg:top-full lg:left-0 bg-white lg:shadow-xl rounded-xl lg:min-w-[250px] z-50"
+              >
+                <div class="px-0 lg:px-2 flex_col ">
+                  <a href="/pages/features" class="block p-4 hover:bg-blue-50 rounded-lg transition-colors">
+                    <div class=" text-gray-800">Features</div> 
+                  </a> 
+                  <a href="/blog" class="block p-4 hover:bg-blue-50 rounded-lg transition-colors">
+                    <div class=" text-gray-800">Blog</div> 
+                  </a> 
+                </div>
+              </div>
+            </li>
+              
+              <li class="w-full lg:w-auto">
+                <a class="nav-link text-[16px]" href="/pages/pricing"
+                  >Pricing</a
+                >
+              </li>
+               <li class="w-full lg:w-auto">
+                <a class="nav-link text-[16px]" href="/pages/ai-sales-team"
+                  >A.I Sales Team</a>
+              </li>
+              <li>
+                <a
+                  href="https://dashboard.quonnect.ai/?logout=true"
+                  class="bg-primary h-[53px] px-4 rounded-xl flex_center text-white lg:hidden"
+                  >Login</a
+                >
+              </li>
+            </div>
+
+            <div
+              class="xl:absolute right-[2rem] flex_center gap-6 max-lg:hidden"
+            >
+              <a
+                href="tel:720-573-1127"
+                class="rounded-xl p-4 flex_center gap-2 border-blue-500 border-2 font-semibold"
+              > 
+                <img
+                    src="../assets/images/telephone.png"
+                    alt="phone"
+                    class="w-4"
+                  />
+                <span class="text-xs">(720)-573-1127</span>
+              </a>
+              <button class="btn-get-started hidden-nav-btn button max-xl:max-w-[200px] ">
+                Get Started
+              </button>
+
+              <a
+                href="https://dashboard.quonnect.ai/?logout=true"
+                class="bg-primary h-[53px] px-4 rounded-xl flex_center text-white"
+                >Login</a
+              >
+            </div>
+          </ul>
+
+          <div class="accessibility flex_center gap-4 z-10">
+            <a
+              href="tel:+17205731127"
+              class="rounded-xl p-3 flex_center gap-3 border-blue-500 border-2 font-semibold lg:hidden overflow-hidden max-[300px]:hidden"
+            >
+               <img
+                  src="../assets/images/telephone.png"
+                  alt="phone"
+                  class="w-3 lg:w-4"
+                />
+
+              <span class="text-[9px] lg:text-xs">(720)-573-1127</span>
+            </a>
+
+            <div class="menu_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+    </nav>
+      
+    <!-- main content -->
+    <main
+      class="relative w-full flex flex-col items-center gap-14 pt-24"
+    >
+
+     <!-- hero section -->
+     <section class="hero w-full h-[550px] md:h-[600px] xl:h-[110vh] max-h-[800px] relative overflow-hidden bg-black">
+          <div class="video-container w-full h-full relative ">
+            <video autoplay loop muted playsinline id="heroVideo" class="hero-video-sales opacity-75 w-full h-full object-cover ">
+              <source src="../assets/video/hero-ai-sales.mp4" type="video/mp4" />
+              Your browser does not support video.
+            </video>
+          </div>
+
+          <div class="hero-content absolute w-full h-full gap-10 flex_center flex-col left-0 top-0">
+            <div class="flex_col items-center max-lg:gap-6">
+              <h1
+              class="font-bold text-white text-center text-3xl lg:text-6xl leading-[1.3] lg:leading-[1.5] max-lg:max-w-[80%]">
+             Expert Advice to Grow Your Business Online.</h1>
+            <p class="text-white text-center w-[90%] lg:w-[700px] font-medium text-sm lg:text-xl">Find the latest articles on SEO, automation, AI tools, and digital business strategies that help you make data-driven decisions.</p>
+            </div>
+ 
+            <button class="button btn-get-started" 
+            data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">GET STARTED</button>
+          </div>
+
+      </section>
+
+      <div class="title flex_col items-center gap-5 px-4 md:px-8">
+         <h1 class="text-center font-semibold text-4xl lg:text-5xl">
+        The Quonnect AI Blog
+      </h1>
+      <p
+        class="text-center w-full lg:text-left text-md opacity-70 max-w-[1400px]"
+      >
+        Whether you’re exploring AI for the first time or looking to level-up
+        your customer experience, you’re in the right place. The Quonnect Blog
+        covers proven strategies, emerging trends, and real-world use cases to
+        help you scale conversations not costs.
+      </p>
+      </div>
+
+      <div
+        id="blogs-container"
+        class="blogs flex justify-start  flex-wrap items-start gap-4 max-md:gap-14 max-lg:mt-6 w-full max-w-[1400px] mb-10 px-4 md:px-8 lg:px-10"
+      >
+        <!-- Blogs will be dynamically inserted here -->
+      </div>
+
+      <!-- experience with employe -->
+      <section
+        class="experience-container relative flex items-center justify-center lg:justify-start w-full h-auto lg:h-[500px] rounded-2xl max-lg:py-10 overflow-hidden  px-4 md:px-8 lg:px-10"
+      >
+        <div
+          class="relative w-full lg:w-[650px] lg:h-[90%] rounded-xl flex flex-col justify-center items-center lg:items-start gap-10 lg:px-[6%] max-lg:py-10 z-10"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="100"
+        >
+          <h2
+            class="text-[35px] md:text-[55px] text-white font-bold leading-[1.2] max-lg:text-center"
+          >
+            Experience AI That Works Like Your Best Employee.
+          </h2>
+          <button class="button btn-get-started bg-white text-black">
+            Get Started
+          </button>
+        </div>
+      </section>
+    </main>
+
+      <!-- footer -->
+      <footer class="w-full flex_center flex-col px-6 lg:px-10 gap-10 lg:gap-24 py-10">
+        <div
+          class="flex justify-between flex-wrap w-full max-w-[1400px] max-lg:gap-10"
+        >
+          <div
+            class="logo flex flex-col max-lg:items-center max-lg:w-full max-lg:gap-2"
+            data-aos="fade-right"
+            data-aos-duration="900"
+            data-aos-delay="100"
+          >
+            <img
+              src="../assets/images/logo-footer.png"
+              alt="logo"
+              class="w-[70px] md:w-[100px]"
+            />
+            <img
+              src="../assets/images/text-logo.png"
+              alt="logo"
+              class="w-[100px] md:w-[200px] object-cover"
+            />
+          </div>
+
+          <div
+            class="links flex items-start flex-wrap max-lg:items-center gap-10 lg:gap-20 max-lg:justify-center max-lg:w-full"
+            data-aos="fade-left"
+            data-aos-duration="900"
+            data-aos-delay="100"
+          >
+            <ul
+              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
+            >
+              <h5 class="text-black font-bold">Product</h5>
+              <li>
+                <a href="/pages/features" class="color_text">Features</a>
+              </li>
+              <li>
+                <a href="/pages/pricing" class="color_text">Pricing</a>
+              </li>
+            </ul>
+            <ul
+              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
+            >
+              <h5 class="text-black font-bold">Support</h5>
+              <li>
+                <a href="/pages/contact" class="color_text">Contact</a>
+              </li> 
+              <li>
+                <a href="/pages/about" class="color_text">About Us</a>
+              </li>
+            </ul>
+            <ul
+              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
+            >
+              <h5 class="text-black font-bold">Company</h5>
+              <li>
+                <a href="/pages/privacy-policy" class="color_text"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="/pages/terms-and-conditions" class="color_text"
+                  >Terms & Conditions</a
+                >
+              </li>
+            </ul>
+            <ul
+              class="social flex justify-center flex-wrap items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
+            >
+              <h5 class="text-black font-bold w-full text-center">Social Media</h5>
+              <li class="flex_center">
+                <a
+                  href="https://www.facebook.com/quonnectai"
+                  class="color_text text-xl"
+                >
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li class="flex_center">
+                <a
+                  href="https://www.instagram.com/quonnect.ai"
+                  class="color_text text-2xl"
+                >
+                  <i class="fa-brands fa-instagram-square"></i
+                ></a>
+              </li>
+
+               <li class="flex_center">
+                <a
+                  href="https://x.com/quonnectai?s=21"
+                  class="color_text text-2xl"
+                >
+                  <i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </li>
+              <li class="flex_center">
+                <a
+                  href="https://www.linkedin.com/company/quonnectai/"
+                  class="color_text text-2xl"
+                >
+              <i class="fa-brands fa-linkedin"></i>
+     
+              </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-between items-center flex-wrap-reverse gap-10 lg:items-start w-full max-w-[1400px]"
+          data-aos="fade-right"
+          data-aos-duration="900"
+          data-aos-delay="100"
+        >
+          <div
+            class="flex items-center md:items-start flex-col gap-2 max-md:text-center w-full lg:w-[50%]"
+          >
+            <a
+              href="tel:720-573-1127"
+              class="text-blue-400 underline text-[14px]"
+              >📞 (720)-573-1127</a
+            >
+            <a
+              href="mailto:support@quonnect.ai"
+              class="text-blue-400 underline text-[14px]"
+            >
+              📧 support.quonnect.ai
+            </a>
+
+            <a
+              href="https://maps.app.goo.gl/NnBDimC3pa4xbtTE9"
+              class="text-blue-400 underline text-[14px]"
+              >📍 Denver, Colorado</a
+            >
+            <p class="text-[16px] color_text mt-2">
+              © Copyright 2025. All Rights Reserved by Quonnect AI.
+            </p>
+          </div>
+          <div
+            class="industry w-full lg:w-[400px] flex flex-col gap-2 text-sm max-lg:items-center max-lg:mt-10 max-sm:text-center"
+          >
+            <h2 class="font-semibold mb-2 text-lg">Industries we serve</h2>
+            <div class="w-full flex justify-center flex-wrap gap-2">
+              <p class="w-[46%]">Chiropractors</p>
+              <p class="w-[46%]">Dental Clinics</p>
+              <p class="w-[46%]">Vision Centers</p>
+              <p class="w-[46%]">Home Services</p>
+              <p class="w-[46%]">Law Firms</p>
+              <p class="w-[46%]">Real Estate Brokers</p>
+              <p class="w-[46%]">Insurance Brokers</p>
+              <p class="w-[46%]">Car Dealerships </p>
+              <p class="w-[46%]">Salons  </p>
+              <p class="w-[46%]">Restaurants </p>
+              <p class="w-[46%]">Non-Profit Organizations</p>
+              <p class="w-[46%]">Coaches</p> 
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- aos js library animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+      <!-- Live Widget -->
+    <script src="https://widgets.leadconnectorhq.com/loader.js"
+      data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+      data-widget-id="68fe76fadea5c73fe3eeec59">
+  </script>
+
+    <!-- booking modal -->
+    <script src="../assets/js/booking-modal.js"></script>
+
+    <!-- ✅ JS intl-tel-input -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+
+    <!-- index link -->
+    <script src="../assets/js/index.js"></script>
+
+    <script>
+      // Fetch and render blogs
+      async function loadBlogs() {
+        try {
+          // Fetch the JSON file
+          const response = await fetch('../assets/json/blog.json'); // Adjust path as needed
+          const data = await response.json();
+          
+          // Get the container
+          const container = document.getElementById('blogs-container');
+          
+          // Generate HTML for each blog
+          data.blogs.forEach(blog => {
+            const blogHTML = `
+              <div class="blog w-full sm:w-[calc(50%-0.5rem)] xl:w-[calc(33.333%-0.67rem)] flex flex-col lg:items-start gap-3 mt-4 md:mt-10">
+                <a
+                  href="${blog.link}"
+                  class="image flex_center w-full h-[230px] md:h-[270px] rounded-xl overflow-hidden"
+                >
+                  <img
+                    src="${blog.image}"
+                    alt="${blog.title}"
+                    class="w-full h-full object-cover duration-500 ease-in-out"
+                  />
+                </a>
+                <div class="date text-blue-500 text-left text-md">
+                  <p>${blog.date}</p>
+                </div>
+                <a
+                  href="${blog.link}"
+                  class="font-semibold duration-300 text-xl hover:text-blue-500"
+                >${blog.title}</a>
+              </div>
+            `;
+            
+            container.innerHTML += blogHTML;
+          });
+        } catch (error) {
+          console.error('Error loading blogs:', error);
+        }
+      }
+      
+      // Load blogs when page loads
+      document.addEventListener('DOMContentLoaded', loadBlogs);
+
+              // video preload
+          const video = document.getElementById('heroVideo');
+            video.addEventListener('loadeddata', () => {
+              video.classList.add('loaded');
+            });
+    </script>
+
+  </body>
+</html>

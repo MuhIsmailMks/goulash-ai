@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="787" height="395" viewBox="0 0 787 395" fill="none">
+<g opacity="0.1" clip-path="url(#clip0_15833_3285)">
+<mask id="mask0_15833_3285" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-120" y="-82" width="960" height="960">
+<rect width="688" height="688" transform="translate(16 -68)" fill="url(#paint0_radial_15833_3285)"/>
+</mask>
+<g mask="url(#mask0_15833_3285)">
+<g clip-path="url(#clip1_15833_3285)">
+<line x1="40.5" y1="-82" x2="40.5" y2="878" stroke="white"/>
+<line x1="120.5" y1="-82" x2="120.5" y2="878" stroke="white"/>
+<line x1="200.5" y1="-82" x2="200.5" y2="878" stroke="white"/>
+<line x1="280.5" y1="-82" x2="280.5" y2="878" stroke="white"/>
+<line x1="360.5" y1="-82" x2="360.5" y2="878" stroke="white"/>
+<line x1="440.5" y1="-82" x2="440.5" y2="878" stroke="white"/>
+<line x1="520.5" y1="-82" x2="520.5" y2="878" stroke="white"/>
+<line x1="600.5" y1="-82" x2="600.5" y2="878" stroke="white"/>
+<line x1="680.5" y1="-82" x2="680.5" y2="878" stroke="white"/>
+<line x1="760.5" y1="-82" x2="760.5" y2="878" stroke="white"/>
+</g>
+<g clip-path="url(#clip2_15833_3285)">
+<line x1="-120" y1="77.5" x2="840" y2="77.5" stroke="white"/>
+<line x1="-120" y1="157.5" x2="840" y2="157.5" stroke="white"/>
+<line x1="-120" y1="237.5" x2="840" y2="237.5" stroke="white"/>
+<line x1="-120" y1="317.5" x2="840" y2="317.5" stroke="white"/>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_15833_3285" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(344 -8.2016e-05) rotate(90) scale(688 359.092)">
+<stop/>
+<stop offset="0.953125" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_15833_3285">
+<rect width="854" height="854" fill="white" transform="translate(-67 -82)"/>
+</clipPath>
+<clipPath id="clip1_15833_3285">
+<rect width="960" height="960" fill="white" transform="translate(-120 -82)"/>
+</clipPath>
+<clipPath id="clip2_15833_3285">
+<rect width="960" height="960" fill="white" transform="translate(-120 -82)"/>
+</clipPath>
+</defs>
+</svg>

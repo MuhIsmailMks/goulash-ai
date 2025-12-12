@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Avan Mutumba",
+    "role": "Founder & CEO",
+    "photo": "../assets/imagess/founding.webp"
+  },
+  {
+    "name": "Courtney Williams",
+    "role": "Operations & Integrations Specialist",
+    "photo": "../assets/imagess/courtney.webp"
+  }, 
+    {
+    "name": "Mariam Brown",
+    "role": "AI Solutions Consultant",
+    "photo": "../assets/imagess/mariam.webp"
+  },
+  {
+    "name": "M Faizan",
+    "role": "Deployment Engineer",
+    "photo": "../assets/imagess/faizan.webp"
+  }
+  
+]
