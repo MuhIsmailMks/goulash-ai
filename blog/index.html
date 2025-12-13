@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quonnect AI Blog</title>
+    <title>Goulash AI Blog</title>
     <meta
       name="description"
       content="The Quonnect Blog"
@@ -11,13 +11,13 @@
     <link rel="icon" type="image/png" href="../assets/faviconsite.png" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="The Quonnect AI Blog" />
+    <meta property="og:title" content="The Goulash AI Blog" />
     <meta
       property="og:description"
       content="covers proven strategies, emerging trends, and real-world use cases to"
     />
-    <meta property="og:image" content="https://quonnect.ai/assets/images/logo.png" />
-    <meta property="og:url" content="https://quonnect.ai/blog" />
+    <meta property="og:image" content="https://goulash-ai.netlify.app/assets/images/logo.png" />
+    <meta property="og:url" content="https://goulash.ai/blog" />
     <meta property="og:type" content="article" />
 
     <!-- tailwind css cdn -->
@@ -29,11 +29,7 @@
 
       
   <!-- preload video -->
-  <link rel="preload" as="video" href="../assets/video/hero-ai-sales.mp4" type="video/mp4">
-
-    <!-- Tracking code -->
-    <script src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_7859e871f27a4b9da58ef1936b1304fa">
-    </script>
+  <link rel="preload" as="video" href="../assets/video/hero-ai-sales.mp4" type="video/mp4"> 
 
     <!-- AOS scroll effect cdn -->
     <link
@@ -50,14 +46,14 @@
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "The Quonnect AI Blog",
+        "headline": "The Goulash AI Blog",
         "description": " help you scale conversations not costs.",
         "author": {
           "@type": "Person",
           "name": "Avan"
         },
         "datePublished": "2025-11-17",
-        "image": "https://quonnect.ai/assets/images/logo.png"
+        "image": "https://goulash-ai.netlify.app/assets/images/logo.png"
       }
     </script>
 
@@ -72,119 +68,65 @@
     <div class="container_site_blog w-full relative max-w-[100%] overflow-hidden flex_center flex-col gap-[50px] xl:gap-[40px] z-10">
 
     <!-- navbar -->
-    <nav class="bg-white">
-        <div
-          class="nav_container relative flex justify-between"
-          data-aos="fade-up"
-          data-aos-duration="900"
-          data-aos-delay="100"
-        >
-          <a href="/home" class="logo w-[35%] lg:w-[17%]">
-            <img
-              src="../assets/images/logo.png"
-              alt="logo webp"
-              class="w-[240px]"
-            />
-          </a>
+    <nav>
+      <div class="nav_container relative flex justify-between" data-aos="fade-up" data-aos-duration="900"
+        data-aos-delay="100">
+        <div class="logo min-w-[100px] w-[35%] lg:w-[17%]">
+          <img src="./assets/images/logo.png" alt="logo webp" class="w-[240px]" />
+        </div>
 
-          <ul
-            class="links h-auto min-[1030px]:h-full rounded-2xl flex justify-between max-min-[1030px]:p-4 max-lg:shadow-md"
-          >
-            <div class="flex_center flex-wrap gap-10 w-full lg:w-auto text-black">
-             
-            <!-- Features Dropdown -->
-            <li class="feature-dropdown w-full lg:w-auto relative">
-              <button 
-                class="nav-link max-lg:py-1 text-[16px] flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-start"
-                onclick="toggleDropdown('featuresDropdown')"
-              >
-                Resources
-                <svg class="w-4 h-4 transition-transform duration-300" id="featuresIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </button>
-              
-              <!-- Dropdown Menu -->
-              <div 
-                id="featuresDropdown" 
-                class="dropdown-menu lg:absolute lg:top-full lg:left-0 bg-white lg:shadow-xl rounded-xl lg:min-w-[250px] z-50"
-              >
-                <div class="px-0 lg:px-2 flex_col ">
-                  <a href="/pages/features" class="block p-4 hover:bg-blue-50 rounded-lg transition-colors">
-                    <div class=" text-gray-800">Features</div> 
-                  </a> 
-                  <a href="/blog" class="block p-4 hover:bg-blue-50 rounded-lg transition-colors">
-                    <div class=" text-gray-800">Blog</div> 
-                  </a> 
-                </div>
-              </div>
+        <ul class="links h-auto min-[1000px]:h-full flex justify-between max-min-[1000px]:p-4">
+          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">
+
+
+            <li class="w-full lg:w-auto">
+              <a class="nav-link text-[16px]" href="./pages/features.html">Features</a>
             </li>
-              
-              <li class="w-full lg:w-auto">
-                <a class="nav-link text-[16px]" href="/pages/pricing"
-                  >Pricing</a
-                >
-              </li>
-               <li class="w-full lg:w-auto">
-                <a class="nav-link text-[16px]" href="/pages/ai-sales-team"
-                  >A.I Sales Team</a>
-              </li>
-              <li>
-                <a
-                  href="https://dashboard.quonnect.ai/?logout=true"
-                  class="bg-primary h-[53px] px-4 rounded-xl flex_center text-white lg:hidden"
-                  >Login</a
-                >
-              </li>
-            </div>
 
-            <div
-              class="xl:absolute right-[2rem] flex_center gap-6 max-lg:hidden"
-            >
-              <a
+            <li class="w-full lg:w-auto">
+              <a class="nav-link text-[16px]" href="#Blog">Blog</a>
+            </li>
+
+            <li class="lg:hidden">
+              <button class="btn-get-started button max-xl:max-w-[200px]">
+                Schedule a Call
+              </button>
+            </li>
+
+
+          </div>
+
+          <div class="lg:absolute right-[2rem] flex_center gap-6 max-lg:hidden">
+            <!-- <a
                 href="tel:720-573-1127"
-                class="rounded-xl p-4 flex_center gap-2 border-blue-500 border-2 font-semibold"
-              > 
-                <img
-                    src="../assets/images/telephone.png"
+                class="rounded-xl py-1 px-3 flex_center flex-col border-blue-500 border-2 font-semibold"
+              >
+                <span class="flex_center gap-1">
+                  <img
+                    src="./assets/images/telephone.png"
                     alt="phone"
                     class="w-4"
                   />
+
+                  AI Employee Demo
+                </span>
                 <span class="text-xs">(720)-573-1127</span>
-              </a>
-              <button class="btn-get-started hidden-nav-btn button max-xl:max-w-[200px] ">
-                Get Started
-              </button>
+              </a> -->
+            <button class="btn-get-started button max-xl:max-w-[200px]">
+              Schedule a Call
+            </button>
+          </div>
+        </ul>
 
-              <a
-                href="https://dashboard.quonnect.ai/?logout=true"
-                class="bg-primary h-[53px] px-4 rounded-xl flex_center text-white"
-                >Login</a
-              >
-            </div>
-          </ul>
+        <div class="accessibility flex_center gap-4 z-10 ">
 
-          <div class="accessibility flex_center gap-4 z-10">
-            <a
-              href="tel:+17205731127"
-              class="rounded-xl p-3 flex_center gap-3 border-blue-500 border-2 font-semibold lg:hidden overflow-hidden max-[300px]:hidden"
-            >
-               <img
-                  src="../assets/images/telephone.png"
-                  alt="phone"
-                  class="w-3 lg:w-4"
-                />
-
-              <span class="text-[9px] lg:text-xs">(720)-573-1127</span>
-            </a>
-
-            <div class="menu_btn">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+          <div class="menu_btn">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
+      </div>
     </nav>
       
     <!-- main content -->

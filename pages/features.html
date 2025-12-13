@@ -93,7 +93,7 @@
 
     <!-- main content -->
     <main
-      class="features-container relative flex flex-col w-full items-center gap-[100px] lg:gap-[140px] max-w-[1900px] z-10 pt-24">
+      class="features-container relative flex flex-col w-full items-center gap-[70px] lg:gap-[100px] max-w-[1900px] z-10 pt-24">
 
       <!-- hero sms -->
       <section id="feature" class=" flex_center flex-wrap max-w-[1500px] max-lg:gap-10" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
@@ -132,7 +132,7 @@
               <!-- Status Bar -->
               <div class="status-bar">
                 <div class="status-left">
-                  <span id="time">9:41</span>
+                  <span class="timePhone">9:41</span>
                 </div>
                 <div class="status-right">
                   <!-- Signal -->
@@ -411,9 +411,9 @@
       <section id="hero-voice" class=" flex_center flex-wrap max-w-[1500px] max-lg:gap-10">
         <div
           class="content flex flex-col  items-center lg:items-start   gap-4 w-full lg:w-[50%] lg:pl-10">
-          <h1 class="font-bold text-5xl lg:text-6xl text-center lg:text-left">
+          <h2 class="font-bold text-5xl lg:text-6xl text-center lg:text-left">
             <span class="color_text_primary">AI-Powered</span>Voice Assistant for Restaurants
-          </h1>
+          </h2>
 
           <ul class="text-gray-800 mt-8 flex flex-col gap-3 max-md:w-[90%]">
             <li class="flex gap-4 items-center">
@@ -452,7 +452,7 @@
               <!-- Status Bar -->
               <div class="status-bar">
                 <div class="status-left">
-                  <span id="time">9:41</span>
+                  <span class="timePhone">9:41</span>
                 </div>
                 <div class="status-right">
                   <!-- Signal -->
@@ -700,7 +700,7 @@
       </section>
 
       <!-- simple and interaction -->
-      <section class="flex_center flex-col gap-36 sm:px-4 ">
+      <section class="flex_center flex-col gap-36 px-4 px-4 ">
 
         <!-- Simplify Customer Interactions -->
         <div class="w-full flex_center flex-wrap max-lg:gap-7 lg:gap-4">
@@ -718,12 +718,12 @@
         <!-- Stay Focused on In-Person Customers -->
         <div class="w-full flex_center md:flex-row-reverse flex-wrap max-lg:gap-7 lg:gap-4">
 
-          <div class="content w-full md:w-[44%] space-y-4 flex flex-col flex-wrap " data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
+          <div class="content w-full md:w-[44%] space-y-4 flex flex-col flex-wrap " data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
             <h2 class="text-3xl lg:text-4xl font-semibold max-md:w-full">Stay Focused on In-Person Customers</h2>
              <p class="feature_text">During busy periods, your staff can prioritize in-store customers without distractions from ringing phones. Goulash ensures callers still receive immediate attention through automated solutions.</p>
           </div>
           <div class="image w-full md:w-[45%] color_text flex items-start flex-col max-lg:items-center"
-            data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+            data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
              <img src="../assets/images/staff-focused-customers.jpg" alt="staff-focused-customers" class="rounded-xl">
           </div>
         </div>
@@ -833,16 +833,21 @@
 
   <!-- javascript -->
   <script>
-    // Update jam real-time
+    // Update  real-time
     function updateTime() {
       const now = new Date();
       const hours = now.getHours().toString().padStart(2, '0');
       const minutes = now.getMinutes().toString().padStart(2, '0');
-      document.getElementById('time').textContent = `${hours}:${minutes}`;
+      const time = `${hours}:${minutes}`;
+
+      document.querySelectorAll('.timePhone').forEach(el => {
+        el.textContent = time;
+      });
     }
 
     updateTime();
     setInterval(updateTime, 1000);
+
 
     // faq
     const faqData = [

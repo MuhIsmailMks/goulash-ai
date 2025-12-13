@@ -1514,20 +1514,6 @@ footer ul li:hover a {
 /* media queries */
 /* max 1024 px */
 @media screen and (max-width:1024px) {
-    .container_site {
-        background-position: top center;
-        background-size: 100% 100vh;
-        background-repeat: no-repeat;
-    }
-
-    .container_site::after {
-        height: 900px;
-
-        right: -70px;
-        width: 200%;
-        top: 780px;
-    }
-
     .title_section {
         font-size: 40px;
         line-height: 1;
@@ -1885,11 +1871,7 @@ footer ul li:hover a {
 
 
 /* Responsive */
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
-
+@media (max-width: 480px) { 
     .iphone-container {
         max-width: 80%;
         height: 650px;
