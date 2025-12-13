@@ -1729,17 +1729,16 @@ footer ul li:hover a {
 
 @media (max-width: 760px) {
     .feature_text {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
 
-/* iphone screen */
-
+/* iphone screen */ 
 .iphone-container {
     width: 100%;
     max-width: 360px;
-    height: 644px;
+    height: 714px;
     background: #000;
     border: 2px solid rgb(134, 134, 134);
     border-radius: 55px;
@@ -2150,3 +2149,115 @@ footer ul li:hover a {
     }
 }
 
+
+
+/* voice */
+.num-gradient{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+
+    background: linear-gradient(to top, var(--primary-color), #ffc75e);
+    /* background-color: var(--primary-color); */
+}
+
+
+/* chart */
+.charts-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-items: center;
+}
+
+.chart-item {
+    text-align: center;
+    width: 30%; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chart-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chart-wrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.chart-item .icon{
+    width: 60px;
+    border-radius: 100px;
+    aspect-ratio: 1/1;
+    background-color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-item p{
+    font-size: 19px;
+    width: 80%;
+    text-align: center;
+    color: var(--neutral-03);
+}
+
+.circular-chart {
+    transform: rotate(-90deg);
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-width: 10;
+}
+
+.circle-progress {
+    fill: none;
+    stroke: var(--primary-color);
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+
+.percentage-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.7;
+}
+
+.features_link{
+    color: rgb(101, 155, 255);
+    text-decoration: underline;
+}
+
+@media screen and (max-width:724px) { 
+    .chart-item {
+        width: 80%;
+    } 
+}

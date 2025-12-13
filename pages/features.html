@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../assets/favicon.png" />
+
+  <!-- AOS scroll effect cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/animation.css" />
+ 
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- tailwind css cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Goulash AI | Features</title>
+</head>
+
+<body>
+
+  <div
+    class="container_site_feature w-full relative max-w-[100%] overflow-hidden flex_center flex-col gap-[80px] xl:gap-[110px] z-10">
+
+    <!-- navbar -->
+    <nav>
+      <div class="nav_container relative flex justify-between" data-aos="fade-up" data-aos-duration="900"
+        data-aos-delay="100">
+        <a href="../index.html" class="logo min-w-[100px] w-[35%] lg:w-[17%]">
+          <img src="../assets/images/logo.png" alt="logo webp" class="w-[240px]" />
+        </a>
+
+        <ul class="links h-auto min-[1000px]:h-full flex justify-between max-min-[1000px]:p-4">
+          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">
+
+
+            <li class="w-full lg:w-auto">
+              <a class="nav-link text-[16px]" href="#Features">Features</a>
+            </li>
+
+            <li class="w-full lg:w-auto">
+              <a class="nav-link text-[16px]" href="#Blog">Blog</a>
+            </li>
+
+            <li class="lg:hidden">
+              <button class="btn-get-started button max-xl:max-w-[200px]">
+                Schedule a Call
+              </button>
+            </li>
+
+
+          </div>
+
+          <div class="lg:absolute right-[2rem] flex_center gap-6 max-lg:hidden">
+            <!-- <a
+                href="tel:720-573-1127"
+                class="rounded-xl py-1 px-3 flex_center flex-col border-blue-500 border-2 font-semibold"
+              >
+                <span class="flex_center gap-1">
+                  <img
+                    src="../assets/images/telephone.png"
+                    alt="phone"
+                    class="w-4"
+                  />
+
+                  AI Employee Demo
+                </span>
+                <span class="text-xs">(720)-573-1127</span>
+              </a> -->
+            <button class="btn-get-started button max-xl:max-w-[200px]">
+              Schedule a Call
+            </button>
+          </div>
+        </ul>
+
+        <div class="accessibility flex_center gap-4 z-10 ">
+
+          <div class="menu_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main content -->
+    <main
+      class="features-container relative flex flex-col w-full items-center gap-[100px] lg:gap-[140px] max-w-[1900px] z-10 pt-24">
+
+      <!-- hero sms -->
+      <section id="feature" class=" flex_center flex-wrap max-w-[1500px] max-lg:gap-10" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+        <div
+          class="content flex flex-col  items-center lg:items-start max-lg:text-center gap-4 w-full lg:w-[50%] lg:pl-10"> 
+          <h1 class="font-bold text-5xl lg:text-6xl text-center lg:text-left">GOULASH <br class="md:hidden"> <span
+              class="color_text_primary">AI</span> SMS</h1>
+          <h4 class="text-2xl lg:text-4xl font-light my-5">AI texting service for <span
+              class="color_text_primary font-medium">Business</span></h4>
+          <p class="feature_text">Let Goulash's AI help increase efficiency and speed at your restaurant, improve order
+            accuracy, and
+            delight your customers. Taking orders has never been so easy!
+            <br>
+            <br>
+            Whether you're handling very simple orders or more complex order requests, Goulash's AI system has got you
+            covered. Your customers will love it, and your staff will love it, too.
+            <br>
+            <br>
+            Have purpose-built AI for restaurants drive your automated text messaging service.
+          </p>
+          <br>
+          <button class="btn-get-started button px-6 flex_center gap-3">Request a Demo
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="white"
+                d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z" />
+            </svg>
+          </button>
+
+        </div>
+        <div class="screen flex_center lg:pl-10 w-full lg:w-[45%]">
+          <div class="iphone-container">
+            <div class="iphone-screen sms">
+              <!-- Dynamic Island -->
+              <div class="dynamic-island"></div>
+
+              <!-- Status Bar -->
+              <div class="status-bar">
+                <div class="status-left">
+                  <span id="time">9:41</span>
+                </div>
+                <div class="status-right">
+                  <!-- Signal -->
+                  <div class="signal-icon">
+                    <div class="signal-bar"></div>
+                    <div class="signal-bar"></div>
+                    <div class="signal-bar"></div>
+                    <div class="signal-bar"></div>
+                  </div>
+                  <!-- WiFi -->
+                  <div class="wifi-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                      <path fill="black"
+                        d="M2.725 10.725L.6 8.6q2.3-2.225 5.25-3.412T12 4t6.15 1.188T23.4 8.6l-2.125 2.125Q19.4 8.925 17 7.963T12 7t-5 .963t-4.275 2.762M6.95 14.95l-2.1-2.1q1.475-1.375 3.313-2.112T12 10t3.838.738t3.312 2.112l-2.1 2.1Q16 14 14.713 13.5T12 13t-2.713.5t-2.337 1.45M12 20l-2.9-2.9q.575-.5 1.325-.8T12 16t1.575.3t1.325.8z" />
+                    </svg>
+                  </div>
+                  <!-- Battery -->
+                  <div class="battery-icon">
+                    <div class="battery-level"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Content Area - ISI CONTENT ANDA DI SINI -->
+              <div class="content-area">
+                <div class="flex_center gap-2 mb-4">
+                  <img src="../assets/images/burger.jpg" alt="burger icon" class="h-14 w-auto">
+                  <p class="from text-center text-lg font-semibold">Goulash Burger</p>
+                </div>
+
+                <div class="message">
+                  <div class="client">
+                    <p>Hello! I'd like to order a burger with no pickles, fries, and a large soda</p>
+                  </div>
+                  <div class="ai">
+                    <p>No problem! Is this for delivery or pickup and when do you want it?</p>
+                  </div>
+                  <div class="client">
+                    <p>Pickup at 6pm</p>
+                  </div>
+                  <div class="ai">
+                    <p>Great! Use this link to checkout and pay for your order: <br> <a href="#"
+                        class="text-blue-500 underline">https://goulashburger.com/</a></p>
+                  </div>
+                  <div class="client">
+                    <p>Thank you!!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="message-panel h-[50px] flex justify-between items-center px-5">
+                <div class="flex items-center justify-center gap-2">
+                  <span></span>
+                  <p class="opacity-50 font-medium">iMessage</p>
+                </div>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- how it work -->
+      <section class="flex_center flex-col gap-10 px-6">
+        <div class="w-full flex_center text-center flex-col gap-4 lg:w-[80%]"  data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+          <h2 class="title_section">
+            How Does it Work?
+          </h2>
+          <p class="text-2xl lg:text-4xl color_text_primary font-light">Simplify Your Calls.</p>
+
+        </div>
+
+
+        <div class="how-work-card-wrapper mt-10"  data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+          <!-- Card 1 -->
+          <div class="card step1">
+            <img src="../assets/images/how-work-step1.png" alt="how it works" class="card-image">
+            <div class="card-content">
+              <h2 class="card-title"> Customer Texts Your Restaurant</h2>
+              <p class="card-description">
+                Customers text their order naturally, just like messaging a friend. Our AI understands complex requests
+                and modifications.
+              </p>
+            </div>
+          </div>
+
+          <!-- Arrow 1 -->
+          <div class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="#FBB03B" d="M17.079 12.5H5v-1h12.079l-5.792-5.792L12 5l7 7l-7 7l-.713-.708z" />
+            </svg>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card step2">
+            <img src="../assets/images/how-work-step2.png" alt="how it works" class="card-image  ">
+            <div class="card-content">
+              <h2 class="card-title">AI Sends Checkout Link</h2>
+              <p class="card-description">AI instantly processes the order and sends a secure checkout link where
+                customers can review their order and pay.</p>
+            </div>
+          </div>
+
+          <!-- Arrow 2 -->
+          <div class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="#FBB03B" d="M17.079 12.5H5v-1h12.079l-5.792-5.792L12 5l7 7l-7 7l-.713-.708z" />
+            </svg>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card step3">
+            <img src="../assets/images/how-work-step3.png" alt="how it works" class="card-image">
+            <div class="card-content">
+              <h2 class="card-title">Order Goes to POS</h2>
+              <p class="card-description">After payment, the order flows directly into your POS system. Your staff
+                prepares it without any phone interruptions.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="feature_text text-center lg:w-[70%] mt-6 lg:text-xl"  data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">Goulash's AI for restaurants integrates with
+          your POS system to seamlessly take orders via text message. Those wishing to place an order will then receive
+          a simple checkout link that takes them straight to their order, where they can double check it and then pay.
+          It comes straight into your POS system and your staff prepares it.
+        </p>
+
+        <div class="reason flex_center relative py-8 lg:py-4 mt-4"  data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+          <div class="clip absolute w-[32px] h-[55px] bg-[#adadad]"></div>
+          <div class="container-reason relative w-full lg:w-[60%] p-6">
+            <h4 class=" uppercase text-gray-500 font-semibold mb-4">Why Everyone Wins</h4>
+            <p class="feature_text"><strong>Your customers</strong> will love how easy it is to order from the phones
+              already in their hands, without installing another app. <strong>Your staff</strong> will love fewer
+              interruptions and being able to focus on food prep. <strong>You</strong> will love increased efficiency
+              coupled with increased top-line revenue from your AI automated text messaging service.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- why choose goulash -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section ">
+            Why Choose GoulashAI SMS?
+          </h2>
+          <p class="color_text text-[19px] lg:text-xl text-center lg:w-[770px]">
+            Transform your restaurant's ordering experience with our AI SMS texting service
+          </p>
+
+        </div>
+
+        <div class="cards-container">
+          <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-smartphone w-6 h-6">
+                  <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                  <path d="M12 18h.01"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">
+                Mobile-First Experience
+              </h3>
+              <p class="card-description">
+                Customers order directly from their phones using familiar text messaging - no app downloads required.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-zap w-6 h-6">
+                  <path
+                    d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="card-title">Instant Processing</h3>
+              <p class="card-description">AI processes orders in real-time, handling complex modifications and special
+                requests with perfect accuracy.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-users w-6 h-6">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Staff Freedom</h3>
+              <p class="card-description">Free your staff from phone interruptions so they can focus on food preparation
+                and customer service.
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-circle-check-big w-6 h-6">
+                  <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                  <path d="m9 11 3 3L22 4"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">POS Integration</h3>
+              <p class="card-description">Seamlessly integrates with your existing POS system - orders flow directly
+                into your workflow.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-clock w-6 h-6">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <h3 class="card-title">24/7 Availability</h3>
+              <p class="card-description">Accept orders around the clock, even when your restaurant is closed or during
+                peak hours.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-message-square w-6 h-6">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <h3 class="card-title">Natural Conversations</h3>
+              <p class="card-description">AI understands natural language, making ordering feel like texting with a
+                helpful friend.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- see action -->
+      <section class="bg-img bg-img-features flex items-center max-lg:gap-10 gap-6 p-8 lg:p-16 overflow-hidden">
+        <div class="about w-full  flex_center flex-col gap-10 text-center" data-aos="fade-up" data-aos-duration="900"
+          data-aos-delay="100">
+          <h2 class="text-3xl lg:text-6xl font-semibold text-white w-full">See it in Action</h2>
+          <p class="text-lg lg:text-2xl text-white w-[90%] lg:w-[60%]">
+            Let us show you how we can help transform your restaurant's ordering experience.
+          </p>
+          <div class="w-full flex_center">
+            <button class="btn-get-started button px-6 flex_center gap-3">Request a Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <path fill="white"
+                  d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- hero voice -->
+      <section id="hero-voice" class=" flex_center flex-wrap max-w-[1500px] max-lg:gap-10">
+        <div
+          class="content flex flex-col  items-center lg:items-start   gap-4 w-full lg:w-[50%] lg:pl-10">
+          <h1 class="font-bold text-5xl lg:text-6xl text-center lg:text-left">
+            <span class="color_text_primary">AI-Powered</span>Voice Assistant for Restaurants
+          </h1>
+
+          <ul class="text-gray-800 mt-8 flex flex-col gap-3 max-md:w-[90%]">
+            <li class="flex gap-4 items-center">
+              <span class="h-3 bg-yellow-500 aspect-square rounded-full"></span>
+              <p class="lg:text-xl">Engage customers even when you're too busy to pick up the phone</p>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="h-3 bg-yellow-500 aspect-square rounded-full"></span>
+              <p class="lg:text-xl">Provide immediate, 24/7 responses to phone calls and guest questions</p>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="h-3 bg-yellow-500 aspect-square rounded-full"></span>
+              <p class="lg:text-xl">Send personalized text messages to direct all guest actions</p>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="h-3 bg-yellow-500 aspect-square rounded-full"></span>
+              <p class="lg:text-xl">Integrates easily with your POS to take orders</p>
+            </li>
+          </ul>
+
+          <div class="rate w-full  border-[1px] border-gray-200 h-auto rounded-lg bg-gray-100 flex flex-col justify-center gap-4 p-6 mt-7">
+            <div class="flex items-center space-x-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-yellow-400 text-yellow-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-yellow-400 text-yellow-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-yellow-400 text-yellow-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-yellow-400 text-yellow-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 fill-yellow-400 text-yellow-400"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg></div>
+            <p class="feature_text text-black">"It saves me at least 2 hours a day. Online orders up by 50%."</p>
+            <p class="feature_text opacity-70">Marcelo | California</p>
+          </div>
+
+        </div>
+
+        <!-- phone screen -->
+        <div class="screen flex_center lg:pl-10 w-full lg:w-[45%]">
+          <div class="iphone-container">
+            <div class="iphone-screen sms">
+              <!-- Dynamic Island -->
+              <div class="dynamic-island"></div>
+
+              <!-- Status Bar -->
+              <div class="status-bar">
+                <div class="status-left">
+                  <span id="time">9:41</span>
+                </div>
+                <div class="status-right">
+                  <!-- Signal -->
+                  <div class="signal-icon">
+                    <div class="signal-bar"></div>
+                    <div class="signal-bar"></div>
+                    <div class="signal-bar"></div>
+                    <div class="signal-bar"></div>
+                  </div>
+                  <!-- WiFi -->
+                  <div class="wifi-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                      <path fill="black"
+                        d="M2.725 10.725L.6 8.6q2.3-2.225 5.25-3.412T12 4t6.15 1.188T23.4 8.6l-2.125 2.125Q19.4 8.925 17 7.963T12 7t-5 .963t-4.275 2.762M6.95 14.95l-2.1-2.1q1.475-1.375 3.313-2.112T12 10t3.838.738t3.312 2.112l-2.1 2.1Q16 14 14.713 13.5T12 13t-2.713.5t-2.337 1.45M12 20l-2.9-2.9q.575-.5 1.325-.8T12 16t1.575.3t1.325.8z" />
+                    </svg>
+                  </div>
+                  <!-- Battery -->
+                  <div class="battery-icon">
+                    <div class="battery-level"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Content Area  -->
+              <div class="content-area">
+                <div class="flex items-center justify-start pl-4 gap-2 mb-4 w-full">
+                  <img src="../assets/images/burger.jpg" alt="burger icon" class="h-14 w-auto">
+                  <div class="flex_col">
+                    <p class="from text-center text-[16px] font-semibold">Goulash Burger</p>
+                    <span class="text-[10px]">AI Phone Assistant Demo</span>
+                  </div>
+                </div>
+
+
+                <div class="flex flex-col gap-4 w-full h-[80%] justify-center items-center text-center  ">
+                  <h2 class="text-2xl font-semibold">Hear it in Action</h2>
+                  <p class="text-sm text-gray-800 w-[80%]">Build a custom experience to see how our AI voice agent handles calls for your restaurant</p>
+                  <button class="btn-get-started button mx-auto flex_center gap-3 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="tabler-icon tabler-icon-phone w-6 h-6">
+                  <path
+                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+                  </path>
+                </svg>
+                    Try GoulashAI
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- automatic -->
+      <section class=" flex_center flex-col gap-36 px-4 ">
+        <div class="w-full flex justify-center flex-wrap max-lg:gap-7 lg:gap-20">
+
+          <div class="w-full lg:w-[44%] space-y-4 flex flex-col flex-wrap" data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
+            <h2 class="text-2xl lg:text-4xl font-semibold max-lg:w-full">Fully-Automated Answers and Actions For Quality Customer Service</h2>
+             <p class="feature_text">Transform your guest experience with Voice AI that answers calls and instantly engages guests with personalized solutions sent via SMS.</p>
+          </div>
+          <div class="content w-full lg:w-[45%] color_text flex items-start flex-col max-lg:items-center"
+            data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+            <h2 class="black_text text-xl lg:text-2xl font-semibold">
+              Automatically respond to customers with:
+            </h2> 
+
+            <ul class="mt-4 feature_text">
+              <li class="flex gap-2 lg:gap-4 my-4">
+                <span class="num-gradient">1</span>
+                <p>Custom personality and greeting</p>
+              </li>
+              <li class="flex gap-2 lg:gap-4 my-4 ">
+                <span class="num-gradient">2</span>
+                <p>Accurate, brand-specific answers</p>
+              </li>
+              <li class="flex gap-2 lg:gap-4 my-4 ">
+                <span class="num-gradient">3</span>
+                <p>Tailored, actionable SMS messages</p>
+              </li>
+              <li class="flex gap-2 lg:gap-4 my-4 ">
+                <span class="num-gradient">4</span>
+                <p>Option to transfer calls based on YOUR rules</p>
+              </li>
+            </ul>
+ 
+            <div class="w-full h-auto p-6 rounded-lg flex items-center gap-4 border-[1px] border-[#f8dbab] bg-gray-100">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBB03B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"  ><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"></path></svg>
+              <p class="text-[15px] font-semibold color_text_primary">AI Voice supports 50+ languages</p>
+            </div>
+          </div>
+        </div>
+ 
+
+      </section>
+
+     <!-- why voice email goulash -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section lg:text-4xl">
+           Why Voicemail and Late Callbacks Aren't Enough
+          </h2>
+          <p class="color_text text-[19px] lg:text-xl text-center lg:w-[770px]">
+            On the other hand, Goulash's AI voice assistant is always on and always helpful.
+          </p>
+
+        </div>
+ 
+
+                <div class="charts-container max-w-[1800px] max-lg:gap-12">
+            <!-- Chart 1 - 62% -->
+            <div class="chart-item"> 
+                <div class="chart-wrapper">
+                    <svg class="circular-chart" width="200" height="200" viewBox="0 0 100 100">
+                        <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="circle-progress" cx="50" cy="50" r="40" 
+                                stroke-dasharray="155.74 251.2"></circle>
+                    </svg>
+                    <div class="percentage-text">62%</div>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none"><path stroke="white" stroke-linecap="round" stroke-width="1.5" d="M13.5 2s2.334.212 5.303 3.182c2.97 2.97 3.182 5.303 3.182 5.303m-7.778-4.949s.99.282 2.475 1.767s1.768 2.475 1.768 2.475"/><path fill="white" d="m15.1 15.027l-.543-.516zm.456-.48l.544.517zm2.417-.335l-.374.65zm1.91 1.1l-.374.65zm.539 3.446l.543.517zm-1.42 1.496l-.545-.517zm-1.326.71l.074.745zm-9.86-4.489l.543-.516zm-4.813-9.51l-.749.041zm6.475 1.538l.543.517zm.156-2.81l.613-.433zM8.374 3.91l-.613.433zM5.26 3.609l.544.516zM3.691 5.26l-.543-.516zm7.372 7.795l.544-.517zm4.582 2.488l.455-.48l-1.088-1.033l-.455.48zm1.954-.682l1.91 1.1l.749-1.3l-1.911-1.1zm2.279 3.38l-1.42 1.495l1.087 1.034l1.42-1.496zm-2.275 1.975c-1.435.141-5.18.02-9.244-4.258l-1.087 1.033c4.429 4.663 8.654 4.898 10.478 4.717zm-9.244-4.258c-3.876-4.081-4.526-7.523-4.607-9.033l-1.498.08c.1 1.85.884 5.634 5.018 9.986zm1.376-6.637l.286-.302l-1.087-1.033l-.287.302zm.512-4.062L8.986 3.477l-1.225.866l1.26 1.783zm-5.53-2.168L3.149 4.745l1.088 1.033l1.57-1.653zm4.474 5.713a38 38 0 0 0-.545-.515l-.002.002l-.003.003l-.05.058a1.6 1.6 0 0 0-.23.427c-.098.275-.15.639-.084 1.093c.13.892.715 2.091 2.242 3.7l1.088-1.034c-1.428-1.503-1.78-2.428-1.846-2.884c-.032-.22 0-.335.013-.372l.008-.019l-.028.037l-.018.02s-.002 0-.545-.516m1.328 4.767c1.523 1.604 2.673 2.234 3.55 2.377c.451.073.816.014 1.092-.095a1.5 1.5 0 0 0 .421-.25l.036-.034l.014-.014l.007-.006l.003-.003l.001-.002s.002-.001-.542-.518c-.544-.516-.543-.517-.543-.518l.002-.001l.002-.003l.005-.005l.01-.01l.037-.032q.015-.008-.004.001c-.02.008-.11.04-.3.009c-.402-.066-1.27-.42-2.703-1.929zM8.986 3.477C7.972 2.043 5.944 1.8 4.718 3.092l1.087 1.033c.523-.55 1.444-.507 1.956.218zM3.752 6.926c-.022-.4.152-.8.484-1.148L3.148 4.745c-.536.564-.943 1.347-.894 2.261zm14.705 12.811c-.279.294-.57.452-.854.48l.147 1.492c.747-.073 1.352-.472 1.795-.939zM10.021 9.02c.968-1.019 1.036-2.613.226-3.76l-1.225.866c.422.597.357 1.392-.088 1.86zm9.488 6.942c.821.473.982 1.635.369 2.28l1.087 1.033c1.305-1.374.925-3.673-.707-4.613zm-3.409-.898c.385-.406.986-.497 1.499-.202l.748-1.3c-1.099-.632-2.46-.45-3.335.47z"/></g></svg>
+                </div>
+                <p>62% of calls are missed by small and mid-sized businesses.</p>
+            </div>
+
+            <!-- Chart 2 - 80% -->
+            <div class="chart-item"> 
+                <div class="chart-wrapper">
+                    <svg class="circular-chart" width="200" height="200" viewBox="0 0 100 100">
+                        <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="circle-progress" cx="50" cy="50" r="40" 
+                                stroke-dasharray="200.96 251.2"></circle>
+                    </svg>
+                    <div class="percentage-text">80%</div>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="white" stroke-width="1.5" d="M3 20.29V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7.961a2 2 0 0 0-1.561.75l-2.331 2.914A.6.6 0 0 1 3 20.29Z"/></svg>
+                </div>
+                <p>
+                  80% of callers prefer texting over leaving voicemails.
+                </p>
+            </div>
+
+            <!-- Chart 3 - 91% -->
+            <div class="chart-item"> 
+                <div class="chart-wrapper">
+                    <svg class="circular-chart" width="200" height="200" viewBox="0 0 100 100">
+                        <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                        <circle class="circle-progress" cx="50" cy="50" r="40" 
+                                stroke-dasharray="228.59 251.2"></circle>
+                    </svg>
+                    <div class="percentage-text">91%</div>
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="3.75" r="2.25"/><path d="M9.5 13.5h-9v-1a4.5 4.5 0 0 1 9 0ZM9 1.5A2.25 2.25 0 0 1 9 6m1.6 2.19a4.5 4.5 0 0 1 2.9 4.2v1.11H12"/></g></svg>
+                </div>
+                <p>91% of customers dislike calling repeatedly for the same issue.</p>
+            </div>
+        </div>
+
+
+      </section>
+
+      <!-- convert missed calls -->
+      <section class="flex_center flex-col gap-10 px-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <div class="w-full flex_center text-center flex-col gap-6 lg:w-[80%]">
+          <h2 class="title_section ">
+            Convert Missed Calls into Revenue
+          </h2>
+          <p class="color_text text-[19px] lg:text-xl text-center lg:w-[870px]">
+          Every missed call is a lost sales opportunity. Roughly 85% of customers won't call back after a missed call. Goulash helps recover these potential sales with intuitive self-serve menus, allowing customers to:
+          </p>
+
+        </div>
+
+        <div class="cards-container v2">
+          <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBB03B"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-gift w-8 h-8">
+                            <rect x="3" y="8" width="18" height="4" rx="1"></rect>
+                            <path d="M12 8v13"></path>
+                            <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"></path>
+                            <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5">
+                            </path>
+                        </svg>
+              </div>
+              <h3 class="card-title">
+               Get answers to any question/request
+              </h3>
+              <p class="card-description">
+               Automated responses to common questions like hours, directions, and menu information.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBB03B"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-shopping-cart w-8 h-8">
+                            <circle cx="8" cy="21" r="1"></circle>
+                            <circle cx="19" cy="21" r="1"></circle>
+                            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+                            </path>
+                        </svg>
+              </div>
+              <h3 class="card-title">Place   orders online</h3>
+              <p class="card-description">Direct customers to online ordering  systems for seamless purchase experiences.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-icon">
+                 <svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FBB03B"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-gift w-8 h-8">
+                            <rect x="3" y="8" width="18" height="4" rx="1"></rect>
+                            <path d="M12 8v13"></path>
+                            <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"></path>
+                            <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5">
+                            </path>
+                        </svg>
+              </div>
+              <h3 class="card-title">Receive    promotional offers instantly</h3>
+              <p class="card-description">Automatically send personalized
+                        promotions and special offers to interested customers.
+              </p>
+            </div>
+ 
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- simple and interaction -->
+      <section class="flex_center flex-col gap-36 sm:px-4 ">
+
+        <!-- Simplify Customer Interactions -->
+        <div class="w-full flex_center flex-wrap max-lg:gap-7 lg:gap-4">
+
+          <div class="content w-full md:w-[44%] space-y-4 flex flex-col flex-wrap" data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
+            <h2 class="text-3xl lg:text-4xl font-semibold max-md:w-full">Simplify Customer Interactions</h2>
+             <p class="feature_text">Automatically guide callers to your website, online menus, ordering systems, or provide essential information like driving directions without additional employee effort.</p>
+          </div>
+          <div class="image w-full md:w-[45%] color_text flex items-start flex-col max-lg:items-center"
+            data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+             <img src="../assets/images/simplified-interactions.jpg" alt="simplified-interactions" class="rounded-xl">
+          </div>
+        </div>
+
+        <!-- Stay Focused on In-Person Customers -->
+        <div class="w-full flex_center md:flex-row-reverse flex-wrap max-lg:gap-7 lg:gap-4">
+
+          <div class="content w-full md:w-[44%] space-y-4 flex flex-col flex-wrap " data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
+            <h2 class="text-3xl lg:text-4xl font-semibold max-md:w-full">Stay Focused on In-Person Customers</h2>
+             <p class="feature_text">During busy periods, your staff can prioritize in-store customers without distractions from ringing phones. Goulash ensures callers still receive immediate attention through automated solutions.</p>
+          </div>
+          <div class="image w-full md:w-[45%] color_text flex items-start flex-col max-lg:items-center"
+            data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+             <img src="../assets/images/staff-focused-customers.jpg" alt="staff-focused-customers" class="rounded-xl">
+          </div>
+        </div>
+ 
+
+      </section>
+
+      <!-- faq -->
+      <section id="faq" class="faq-container  px-4 lg:px-8">
+        <h2 class="title_section mb-10"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Frequently Asked Questions</h2>
+
+        <div id="faq-list"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"></div>
+      </section>
+
+            <!-- restaurant success -->
+      <section class="bg-img-success flex items-center max-lg:gap-10 gap-6 p-8 lg:p-16 overflow-hidden">
+        <div class="about w-full  flex_center flex-col gap-10 text-center" data-aos="fade-up" data-aos-duration="900"
+          data-aos-delay="100">
+          <h2 class="text-3xl lg:text-6xl font-semibold text-white w-full">Ready to <span
+              class="color_text_primary">never</span> miss another call?</h2>
+          <p class="font-medium text-lg lg:text-2xl text-white w-[90%] lg:w-[60%]">
+            Join 1,000+ restaurants already using Goulash AI to boost revenue and delight customers
+          </p>
+          <div class="w-full flex_center">
+            <button class="button btn-get-started">
+              Try Goulash AI
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="w-full flex_center flex-col px-6 lg:px-10 gap-24 pb-4">
+      <div class="flex justify-between flex-wrap w-full max-w-[1400px] max-lg:gap-10">
+        <a href="../index.html" class="logo flex flex-col max-lg:items-center max-lg:w-full max-lg:gap-2" data-aos="fade-right"
+          data-aos-duration="900" data-aos-delay="100">
+          <img src="../assets/images/logo2.png" alt="logo" class="w-[70px] md:w-[100px]" />
+          <img src="../assets/images/text-logo.png" alt="logo" class="w-[100px] md:w-[200px] object-cover" />
+        </a>
+
+        <div
+          class="links flex items-start flex-wrap max-lg:items-center gap-10 lg:gap-20 max-lg:justify-center max-lg:w-full"
+          data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+          <ul class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold">Quick Links</h5>
+            <li>
+              <a href="#feature" class="color_text">Features</a>
+            </li>
+            <li>
+              <a href="#" class="color_text">Blog</a>
+            </li>
+          </ul> 
+          <ul
+            class="social-media flex flex-wrap justify-center items-center gap-4 text-[16px] w-full md:w-[250px] sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold w-full text-center ">Social Media</h5>
+            <li>
+              <a href="https://www.facebook.com" class="color_text text-xl">
+                <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" class="color_text text-2xl">
+                <i class="fa-brands fa-instagram-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" class="color_text text-xl">
+                <i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.x.com" class="color_text text-2xl">
+                <i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+          </ul> 
+          <div
+            class="flex flex-wrap justify-center items-center gap-4 text-[16px] w-full md:w-[250px] sm:h-[200px] lg:h-auto">
+                        <h5 class="text-black font-bold w-full text-center ">Contact</h5>
+               <a href="tel:720-573-1127" class="text-blue-400 underline text-[14px]">📞 (720)-573-1127</a>
+        <a href="mailto:support@quonnect.ai?subject=Need%20Support" class="text-blue-400 underline text-[14px]">
+          📧 support.goulash.ai
+        </a>
+
+        <a href="https://maps.app.goo.gl/NnBDimC3pa4xbtTE9" class="text-blue-400 underline text-[14px]">📍 Denver,
+          Colorado</a>
+
+          </div> 
+        </div>
+      </div>
+
+              <p class="text-[16px] color_text mt-2 text-center">
+          © Copyright 2025. All Rights Reserved by Goulash AI.
+        </p>
+ 
+    </footer>
+
+  </div>
+
+
+  <!-- aos js library animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- booking modal -->
+  <script src="../assets/js/booking-modal.js"></script>
+
+  <!-- index link -->
+  <script src="../assets/js/index.js?v=2"></script>
+
+  <!-- javascript -->
+  <script>
+    // Update jam real-time
+    function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      document.getElementById('time').textContent = `${hours}:${minutes}`;
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+
+    // faq
+    const faqData = [
+      {
+        question: "What is GoulashAI?",
+        answer: "An AI-powered phone system for restaurants that answers calls, sends links using SMS, handles orders, and frees up staff."
+      }, 
+      {
+        question: "Can I keep my phone number?",
+        answer: "Yes. Whether ported or integrated, you can keep your existing number."
+      }, 
+      {
+        question: "Do I need to connect it to my POS system?",
+        answer: "Not at all—but if you use Square or Olo, we can do more."
+      }, 
+      {
+        question: "How long does setup take?",
+        answer: "Typically in 2 weeks, with our onboarding team doing the heavy lifting."
+      }, 
+      
+      { 
+        question: "How much does it cost?",
+        answer: `We offer flat-rate plans for restaurants of all sizes. 
+           <a href="https://goulash-ai.netlify.app/#pricing" class="features_link">Check our pricing page</a> 
+           for detailed information.`
+      }
+    ];
+
+    const faqList = document.getElementById('faq-list');
+
+    faqData.forEach((faq, index) => {
+      const faqItem = document.createElement('div');
+      faqItem.className = 'faq-item';
+
+      faqItem.innerHTML = `
+                <div class="faq-question">
+                    <div class="faq-title">${faq.question}</div>
+                    <div class="faq-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">${faq.answer}</div>
+                </div>
+            `;
+
+      faqList.appendChild(faqItem);
+
+      const question = faqItem.querySelector('.faq-question');
+      question.addEventListener('click', () => {
+        const isActive = faqItem.classList.contains('active');
+
+        // Tutup semua FAQ lainnya
+        document.querySelectorAll('.faq-item').forEach(item => {
+          item.classList.remove('active');
+        });
+
+        // Toggle FAQ yang diklik
+        if (!isActive) {
+          faqItem.classList.add('active');
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html>
