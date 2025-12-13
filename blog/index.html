@@ -72,15 +72,13 @@
       <div class="nav_container relative flex justify-between" data-aos="fade-up" data-aos-duration="900"
         data-aos-delay="100">
         <div class="logo min-w-[100px] w-[35%] lg:w-[17%]">
-          <img src="./assets/images/logo.png" alt="logo webp" class="w-[240px]" />
+          <img src="../assets/images/logo.png" alt="logo webp" class="w-[240px]" />
         </div>
 
         <ul class="links h-auto min-[1000px]:h-full flex justify-between max-min-[1000px]:p-4">
-          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">
-
-
+          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">   
             <li class="w-full lg:w-auto">
-              <a class="nav-link text-[16px]" href="./pages/features.html">Features</a>
+              <a class="nav-link text-[16px]" href="../pages/features.html">Features</a>
             </li>
 
             <li class="w-full lg:w-auto">
@@ -103,7 +101,7 @@
               >
                 <span class="flex_center gap-1">
                   <img
-                    src="./assets/images/telephone.png"
+                    src="../assets/images/telephone.png"
                     alt="phone"
                     class="w-4"
                   />
@@ -131,46 +129,32 @@
       
     <!-- main content -->
     <main
-      class="relative w-full flex flex-col items-center gap-14 pt-24"
+      class="relative w-full flex flex-col items-center gap-14 pt-20"
     >
 
-     <!-- hero section -->
-     <section class="hero w-full h-[550px] md:h-[600px] xl:h-[110vh] max-h-[800px] relative overflow-hidden bg-black">
-          <div class="video-container w-full h-full relative ">
-            <video autoplay loop muted playsinline id="heroVideo" class="hero-video-sales opacity-75 w-full h-full object-cover ">
-              <source src="../assets/video/hero-ai-sales.mp4" type="video/mp4" />
+        <section class="hero h-[550px] md:h-[600px] lg:h-[110vh] max-h-[800px]">
+          <div class="video-container w-full bg-black">
+            <video autoplay loop muted playsinline id="heroVideo" class="hero-video" poster="../assets/images/thumb-seo-video.jpg">
+              <source src="../assets/video/hero-video.mp4" type="video/mp4"/>
               Your browser does not support video.
             </video>
           </div>
 
-          <div class="hero-content absolute w-full h-full gap-10 flex_center flex-col left-0 top-0">
-            <div class="flex_col items-center max-lg:gap-6">
-              <h1
-              class="font-bold text-white text-center text-3xl lg:text-6xl leading-[1.3] lg:leading-[1.5] max-lg:max-w-[80%]">
-             Expert Advice to Grow Your Business Online.</h1>
-            <p class="text-white text-center w-[90%] lg:w-[700px] font-medium text-sm lg:text-xl">Find the latest articles on SEO, automation, AI tools, and digital business strategies that help you make data-driven decisions.</p>
+          <div
+            class="hero-content absolute text-center w-full flex_center flex-col gap-6 left-0 max-lg:pt-30 h-full text-white">
+            <div class="content w-full flex_center flex-col gap-6"> 
+              <h1 class="font-semibold text-3xl lg:text-7xl leading-[1] max-lg:max-w-[70%] text-white">
+               The Goulash AI 
+                <span class="color_text_primary">Blog</span>  
+              </h1>
+
+              <p class="max-lg:text-center text-sm lg:text-lg font-medium w-[80%] lg:w-[50%] text-white">Whether you’re discovering AI for the first time or optimizing your restaurant operations, you’re in the right place.
+Our blog shares proven strategies, industry insights, and real-world examples to help restaurants answer more calls, capture more orders, and grow revenue with AI.</p> 
             </div>
- 
-            <button class="button btn-get-started" 
-            data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">GET STARTED</button>
           </div>
 
-      </section>
-
-      <div class="title flex_col items-center gap-5 px-4 md:px-8">
-         <h1 class="text-center font-semibold text-4xl lg:text-5xl">
-        The Quonnect AI Blog
-      </h1>
-      <p
-        class="text-center w-full lg:text-left text-md opacity-70 max-w-[1400px]"
-      >
-        Whether you’re exploring AI for the first time or looking to level-up
-        your customer experience, you’re in the right place. The Quonnect Blog
-        covers proven strategies, emerging trends, and real-world use cases to
-        help you scale conversations not costs.
-      </p>
-      </div>
-
+        </section>
+ 
       <div
         id="blogs-container"
         class="blogs flex justify-start  flex-wrap items-start gap-4 max-md:gap-14 max-lg:mt-6 w-full max-w-[1400px] mb-10 px-4 md:px-8 lg:px-10"
@@ -365,16 +349,8 @@
 
     <!-- aos js library animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
-      <!-- Live Widget -->
-    <script src="https://widgets.leadconnectorhq.com/loader.js"
-      data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-      data-widget-id="68fe76fadea5c73fe3eeec59">
-  </script>
-
-    <!-- booking modal -->
-    <script src="../assets/js/booking-modal.js"></script>
-
+ 
+ 
     <!-- ✅ JS intl-tel-input -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
 
