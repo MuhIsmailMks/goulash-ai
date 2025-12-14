@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goulash AI Blog</title>
-    <meta
-      name="description"
-      content="The Quonnect Blog"
-    />
-    <link rel="icon" type="image/png" href="../assets/faviconsite.png" />
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="The Goulash AI Blog" />
-    <meta
-      property="og:description"
-      content="covers proven strategies, emerging trends, and real-world use cases to"
-    />
-    <meta property="og:image" content="https://goulash-ai.netlify.app/assets/images/logo.png" />
-    <meta property="og:url" content="https://goulash.ai/blog" />
-    <meta property="og:type" content="article" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goulash AI Blog</title>
+  <meta name="description" content="The Quonnect Blog" />
+  <link rel="icon" type="image/png" href="../assets/faviconsite.png" />
 
-    <!-- tailwind css cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Goulash AI Blog" />
+  <meta property="og:description" content="covers proven strategies, emerging trends, and real-world use cases to" />
+  <meta property="og:image" content="https://goulash-ai.netlify.app/assets/images/logo.png" />
+  <meta property="og:url" content="https://goulash.ai/blog" />
+  <meta property="og:type" content="article" />
 
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- tailwind css cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-      
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
   <!-- preload video -->
-  <link rel="preload" as="video" href="../assets/video/hero-ai-sales.mp4" type="video/mp4"> 
+  <link rel="preload" as="video" href="../assets/video/hero-ai-sales.mp4" type="video/mp4">
 
-    <!-- AOS scroll effect cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    />
+  <!-- AOS scroll effect cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
-    <!-- css -->
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/animation.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/animation.css" />
 
-    <!-- Structured Data JSON-LD -->
-    <script type="application/ld+json">
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -57,15 +49,17 @@
       }
     </script>
 
-    <style>
-      .blog .image:hover img {
-        transform: scale(1.1);
-      }
-    </style>
-  </head>
-  <body>
-    
-    <div class="container_site_blog w-full relative max-w-[100%] overflow-hidden flex_center flex-col gap-[50px] xl:gap-[40px] z-10">
+  <style>
+    .blog .image:hover img {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div
+    class="container_site_blog w-full relative max-w-[100%] overflow-hidden flex_center flex-col gap-[50px] xl:gap-[40px] z-10">
 
     <!-- navbar -->
     <nav>
@@ -76,7 +70,7 @@
         </div>
 
         <ul class="links h-auto min-[1000px]:h-full flex justify-between max-min-[1000px]:p-4">
-          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">   
+          <div class="flex_center flex-wrap gap-10 w-full lg:w-auto">
             <li class="w-full lg:w-auto">
               <a class="nav-link text-[16px]" href="../pages/features.html">Features</a>
             </li>
@@ -126,55 +120,48 @@
         </div>
       </div>
     </nav>
-      
+
     <!-- main content -->
-    <main
-      class="relative w-full flex flex-col items-center gap-14 pt-20"
-    >
+    <main id="blog" class="relative w-full flex flex-col items-center gap-14 pt-20">
 
-        <section class="hero h-[550px] md:h-[600px] lg:h-[110vh] max-h-[800px]">
-          <div class="video-container w-full bg-black">
-            <video autoplay loop muted playsinline id="heroVideo" class="hero-video" poster="../assets/images/thumb-seo-video.jpg">
-              <source src="../assets/video/hero-video.mp4" type="video/mp4"/>
-              Your browser does not support video.
-            </video>
+      <section class="hero h-[550px] md:h-[600px] lg:h-[110vh] max-h-[800px]">
+        <div class="video-container w-full bg-black">
+          <video autoplay loop muted playsinline id="heroVideo" class="hero-video"
+            poster="../assets/images/thumb-seo-video.jpg">
+            <source src="../assets/video/hero-video.mp4" type="video/mp4" />
+            Your browser does not support video.
+          </video>
+        </div>
+
+        <div
+          class="hero-content absolute text-center w-full flex_center flex-col gap-6 left-0 max-lg:pt-30 h-full text-white">
+          <div class="content w-full flex_center flex-col gap-6">
+            <h1 class="font-semibold text-3xl lg:text-7xl leading-[1] max-lg:max-w-[70%] text-white">
+              The Goulash AI
+              <span class="color_text_primary">Blog</span>
+            </h1>
+
+            <p class="max-lg:text-center text-sm lg:text-lg font-medium w-[80%] lg:w-[50%] text-white">Whether you’re
+              discovering AI for the first time or optimizing your restaurant operations, you’re in the right place.
+              Our blog shares proven strategies, industry insights, and real-world examples to help restaurants answer
+              more calls, capture more orders, and grow revenue with AI.</p>
           </div>
+        </div>
 
-          <div
-            class="hero-content absolute text-center w-full flex_center flex-col gap-6 left-0 max-lg:pt-30 h-full text-white">
-            <div class="content w-full flex_center flex-col gap-6"> 
-              <h1 class="font-semibold text-3xl lg:text-7xl leading-[1] max-lg:max-w-[70%] text-white">
-               The Goulash AI 
-                <span class="color_text_primary">Blog</span>  
-              </h1>
+      </section>
 
-              <p class="max-lg:text-center text-sm lg:text-lg font-medium w-[80%] lg:w-[50%] text-white">Whether you’re discovering AI for the first time or optimizing your restaurant operations, you’re in the right place.
-Our blog shares proven strategies, industry insights, and real-world examples to help restaurants answer more calls, capture more orders, and grow revenue with AI.</p> 
-            </div>
-          </div>
-
-        </section>
- 
-      <div
-        id="blogs-container"
-        class="blogs flex justify-start  flex-wrap items-start gap-4 max-md:gap-14 max-lg:mt-6 w-full max-w-[1400px] mb-10 px-4 md:px-8 lg:px-10"
-      >
+      <div id="blogs-container"
+        class="blogs flex justify-start  flex-wrap items-start gap-4 max-md:gap-14 max-lg:mt-6 w-full max-w-[1400px] mb-10 px-4 md:px-8 lg:px-10">
         <!-- Blogs will be dynamically inserted here -->
       </div>
 
       <!-- experience with employe -->
       <section
-        class="experience-container relative flex items-center justify-center lg:justify-start w-full h-auto lg:h-[500px] rounded-2xl max-lg:py-10 overflow-hidden  px-4 md:px-8 lg:px-10"
-      >
+        class="experience-container relative flex items-center justify-center lg:justify-start w-full h-auto lg:h-[500px] rounded-2xl max-lg:py-10 overflow-hidden  px-4 md:px-8 lg:px-10">
         <div
           class="relative w-full lg:w-[650px] lg:h-[90%] rounded-xl flex flex-col justify-center items-center lg:items-start gap-10 lg:px-[6%] max-lg:py-10 z-10"
-          data-aos="fade-up"
-          data-aos-duration="900"
-          data-aos-delay="100"
-        >
-          <h2
-            class="text-[35px] md:text-[55px] text-white font-bold leading-[1.2] max-lg:text-center"
-          >
+          data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+          <h2 class="text-[35px] md:text-[55px] text-white font-bold leading-[1.2] max-lg:text-center">
             Experience AI That Works Like Your Best Employee.
           </h2>
           <button class="button btn-get-started bg-white text-black">
@@ -184,193 +171,94 @@ Our blog shares proven strategies, industry insights, and real-world examples to
       </section>
     </main>
 
-      <!-- footer -->
-      <footer class="w-full flex_center flex-col px-6 lg:px-10 gap-10 lg:gap-24 py-10">
-        <div
-          class="flex justify-between flex-wrap w-full max-w-[1400px] max-lg:gap-10"
-        >
-          <div
-            class="logo flex flex-col max-lg:items-center max-lg:w-full max-lg:gap-2"
-            data-aos="fade-right"
-            data-aos-duration="900"
-            data-aos-delay="100"
-          >
-            <img
-              src="../assets/images/logo-footer.png"
-              alt="logo"
-              class="w-[70px] md:w-[100px]"
-            />
-            <img
-              src="../assets/images/text-logo.png"
-              alt="logo"
-              class="w-[100px] md:w-[200px] object-cover"
-            />
-          </div>
-
-          <div
-            class="links flex items-start flex-wrap max-lg:items-center gap-10 lg:gap-20 max-lg:justify-center max-lg:w-full"
-            data-aos="fade-left"
-            data-aos-duration="900"
-            data-aos-delay="100"
-          >
-            <ul
-              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
-            >
-              <h5 class="text-black font-bold">Product</h5>
-              <li>
-                <a href="/pages/features" class="color_text">Features</a>
-              </li>
-              <li>
-                <a href="/pages/pricing" class="color_text">Pricing</a>
-              </li>
-            </ul>
-            <ul
-              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
-            >
-              <h5 class="text-black font-bold">Support</h5>
-              <li>
-                <a href="/pages/contact" class="color_text">Contact</a>
-              </li> 
-              <li>
-                <a href="/pages/about" class="color_text">About Us</a>
-              </li>
-            </ul>
-            <ul
-              class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
-            >
-              <h5 class="text-black font-bold">Company</h5>
-              <li>
-                <a href="/pages/privacy-policy" class="color_text"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a href="/pages/terms-and-conditions" class="color_text"
-                  >Terms & Conditions</a
-                >
-              </li>
-            </ul>
-            <ul
-              class="social flex justify-center flex-wrap items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto"
-            >
-              <h5 class="text-black font-bold w-full text-center">Social Media</h5>
-              <li class="flex_center">
-                <a
-                  href="https://www.facebook.com/quonnectai"
-                  class="color_text text-xl"
-                >
-                  <i class="fa-brands fa-facebook"></i
-                ></a>
-              </li>
-              <li class="flex_center">
-                <a
-                  href="https://www.instagram.com/quonnect.ai"
-                  class="color_text text-2xl"
-                >
-                  <i class="fa-brands fa-instagram-square"></i
-                ></a>
-              </li>
-
-               <li class="flex_center">
-                <a
-                  href="https://x.com/quonnectai?s=21"
-                  class="color_text text-2xl"
-                >
-                  <i class="fa-brands fa-x-twitter"></i
-                ></a>
-              </li>
-              <li class="flex_center">
-                <a
-                  href="https://www.linkedin.com/company/quonnectai/"
-                  class="color_text text-2xl"
-                >
-              <i class="fa-brands fa-linkedin"></i>
-     
-              </a>
-              </li>
-
-            </ul>
-          </div>
-        </div>
+    <!-- footer -->
+    <footer class="w-full flex_center flex-col px-6 lg:px-10 gap-24 pb-4 bg-white">
+      <div class="flex justify-between flex-wrap w-full max-w-[1400px] max-lg:gap-10">
+        <a href="../index.html" class="logo flex flex-col max-lg:items-center max-lg:w-full max-lg:gap-2"
+          data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
+          <img src="../assets/images/logo2.png" alt="logo" class="w-[70px] md:w-[100px]" />
+          <img src="../assets/images/text-logo.png" alt="logo" class="w-[100px] md:w-[200px] object-cover" />
+        </a>
 
         <div
-          class="flex justify-between items-center flex-wrap-reverse gap-10 lg:items-start w-full max-w-[1400px]"
-          data-aos="fade-right"
-          data-aos-duration="900"
-          data-aos-delay="100"
-        >
+          class="links flex items-start flex-wrap max-lg:items-center gap-10 lg:gap-20 max-lg:justify-center max-lg:w-full"
+          data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+          <ul class="flex_col max-lg:items-center gap-4 text-[16px] w-full md:w-auto sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold">Quick Links</h5>
+            <li>
+              <a href="../pages/features.html" class="color_text">Features</a>
+            </li>
+            <li>
+              <a href="#blog" class="color_text">Blog</a>
+            </li>
+          </ul>
+          <ul
+            class="social-media flex flex-wrap justify-center items-center gap-4 text-[16px] w-full md:w-[250px] sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold w-full text-center ">Social Media</h5>
+            <li>
+              <a href="https://www.facebook.com" class="color_text text-xl">
+                <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" class="color_text text-2xl">
+                <i class="fa-brands fa-instagram-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" class="color_text text-xl">
+                <i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.x.com" class="color_text text-2xl">
+                <i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+          </ul>
           <div
-            class="flex items-center md:items-start flex-col gap-2 max-md:text-center w-full lg:w-[50%]"
-          >
-            <a
-              href="tel:720-573-1127"
-              class="text-blue-400 underline text-[14px]"
-              >📞 (720)-573-1127</a
-            >
-            <a
-              href="mailto:support@quonnect.ai"
-              class="text-blue-400 underline text-[14px]"
-            >
-              📧 support.quonnect.ai
+            class="flex flex-wrap justify-center items-center gap-4 text-[16px] w-full md:w-[250px] sm:h-[200px] lg:h-auto">
+            <h5 class="text-black font-bold w-full text-center ">Contact</h5>
+            <a href="tel:720-573-1127" class="text-blue-400 underline text-[14px]">📞 (720)-573-1127</a>
+            <a href="mailto:support@quonnect.ai?subject=Need%20Support" class="text-blue-400 underline text-[14px]">
+              📧 support.goulash.ai
             </a>
 
-            <a
-              href="https://maps.app.goo.gl/NnBDimC3pa4xbtTE9"
-              class="text-blue-400 underline text-[14px]"
-              >📍 Denver, Colorado</a
-            >
-            <p class="text-[16px] color_text mt-2">
-              © Copyright 2025. All Rights Reserved by Quonnect AI.
-            </p>
-          </div>
-          <div
-            class="industry w-full lg:w-[400px] flex flex-col gap-2 text-sm max-lg:items-center max-lg:mt-10 max-sm:text-center"
-          >
-            <h2 class="font-semibold mb-2 text-lg">Industries we serve</h2>
-            <div class="w-full flex justify-center flex-wrap gap-2">
-              <p class="w-[46%]">Chiropractors</p>
-              <p class="w-[46%]">Dental Clinics</p>
-              <p class="w-[46%]">Vision Centers</p>
-              <p class="w-[46%]">Home Services</p>
-              <p class="w-[46%]">Law Firms</p>
-              <p class="w-[46%]">Real Estate Brokers</p>
-              <p class="w-[46%]">Insurance Brokers</p>
-              <p class="w-[46%]">Car Dealerships </p>
-              <p class="w-[46%]">Salons  </p>
-              <p class="w-[46%]">Restaurants </p>
-              <p class="w-[46%]">Non-Profit Organizations</p>
-              <p class="w-[46%]">Coaches</p> 
-            </div>
+            <a href="https://maps.app.goo.gl/NnBDimC3pa4xbtTE9" class="text-blue-400 underline text-[14px]">📍 Denver,
+              Colorado</a>
+
           </div>
         </div>
-      </footer>
+      </div>
 
-    </div>
+      <p class="text-[16px] color_text mt-2 text-center">
+        © Copyright 2025. All Rights Reserved by Goulash AI.
+      </p>
 
-    <!-- aos js library animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
- 
- 
-    <!-- ✅ JS intl-tel-input -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    </footer>
 
-    <!-- index link -->
-    <script src="../assets/js/index.js"></script>
+  </div>
 
-    <script>
-      // Fetch and render blogs
-      async function loadBlogs() {
-        try {
-          // Fetch the JSON file
-          const response = await fetch('../assets/json/blog.json'); // Adjust path as needed
-          const data = await response.json();
-          
-          // Get the container
-          const container = document.getElementById('blogs-container');
-          
-          // Generate HTML for each blog
-          data.blogs.forEach(blog => {
-            const blogHTML = `
+  <!-- aos js library animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+  <!-- ✅ JS intl-tel-input -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+
+  <!-- index link -->
+  <script src="../assets/js/index.js"></script>
+
+  <script>
+    // Fetch and render blogs
+    async function loadBlogs() {
+      try {
+        // Fetch the JSON file
+        const response = await fetch('../assets/json/blog.json'); // Adjust path as needed
+        const data = await response.json();
+
+        // Get the container
+        const container = document.getElementById('blogs-container');
+
+        // Generate HTML for each blog
+        data.blogs.forEach(blog => {
+          const blogHTML = `
               <div class="blog w-full sm:w-[calc(50%-0.5rem)] xl:w-[calc(33.333%-0.67rem)] flex flex-col lg:items-start gap-3 mt-4 md:mt-10">
                 <a
                   href="${blog.link}"
@@ -391,23 +279,24 @@ Our blog shares proven strategies, industry insights, and real-world examples to
                 >${blog.title}</a>
               </div>
             `;
-            
-            container.innerHTML += blogHTML;
-          });
-        } catch (error) {
-          console.error('Error loading blogs:', error);
-        }
+
+          container.innerHTML += blogHTML;
+        });
+      } catch (error) {
+        console.error('Error loading blogs:', error);
       }
-      
-      // Load blogs when page loads
-      document.addEventListener('DOMContentLoaded', loadBlogs);
+    }
 
-              // video preload
-          const video = document.getElementById('heroVideo');
-            video.addEventListener('loadeddata', () => {
-              video.classList.add('loaded');
-            });
-    </script>
+    // Load blogs when page loads
+    document.addEventListener('DOMContentLoaded', loadBlogs);
 
-  </body>
+    // video preload
+    const video = document.getElementById('heroVideo');
+    video.addEventListener('loadeddata', () => {
+      video.classList.add('loaded');
+    });
+  </script>
+
+</body>
+
 </html>
